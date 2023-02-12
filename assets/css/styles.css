@@ -1,0 +1,38 @@
+/* ==================== NAVBAR ==================== */
+
+@media (min-width: 992px) {
+   .navbar .input-group {
+      max-width: 210px;
+   }
+}
+
+/* multi dropdown on navbar */
+@media (min-width: 768px) {
+   .navbar .multi-dropdown {
+      display: flex;
+   }
+
+   .navbar .multi-dropdown .dropdown-list {
+      width: 50%;
+   }
+}
+
+@media (min-width: 768px) {
+   .navbar .multi-dropdown .dropdown-list {
+      width: 50%;
+   }
+}
+
+/* navbar dropdown hover on desktop */
+@media (min-width: 992px) {
+   .navbar .dropdown:hover .dropdown-menu {
+      display: block;
+   }
+}
+
+/* erase border button navbar > input group on desktop */
+@media (min-width: 992px) {
+   .navbar .input-group.border {
+      border: solid 1px transparent !important;
+   }
+}
