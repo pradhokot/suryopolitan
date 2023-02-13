@@ -55,7 +55,7 @@ document.write(`
             </div>
 
             <div class="col-lg-auto order-lg-1">
-               &copy; 2023 SuryoPolitan. All rights reserved.<br class="d-lg-none"> Made with <i
+               &copy; 2023 IndraCode. All rights reserved.<br class="d-lg-none"> Made with <i
                   class="bi bi-heartbreak text-danger"></i> in
                Indonesia.
             </div>

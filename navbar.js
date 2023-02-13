@@ -1,12 +1,11 @@
 document.write(`
-
-<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm d-block">
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm d-block">
    <!-- gunakan class "container-fluid" untuk full width dan "container" untuk menyesuaikan dengan standar template -->
    <div class="container">
 
       <a href="index.html" class="navbar-brand">
          <!-- <img src="" width="200" height="auto" alt=""> -->
-         <span style="font-size: calc(1.5rem + .25vw);"><strong>SURYO</strong>POLITAN</span>
+         <span style="font-size: calc(1.5rem + .5vw);"><strong>INDRA</strong>CODE</span>
       </a>
 
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol">
@@ -15,8 +14,8 @@ document.write(`
 
       <!-- class "order" digunakan untuk merubah urutan struktur -->
 
-      <div class="collapse navbar-collapse show" id="navcol">
-         <div class="pt-1 mb-3 order-lg-1 pt-lg-0 mb-lg-0 mr-lg-auto">
+      <div class="collapse navbar-collapse" id="navcol">
+         <div class="pt-1 mb-2 order-lg-1 pt-lg-0 mb-lg-0 mr-lg-auto">
             <form class="input-group border rounded" action="">
                <input type="text" class="form-control border-secondary border-0 d-lg-none" placeholder="Search...">
                <div class="input-group-append">
