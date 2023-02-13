@@ -51,3 +51,8 @@ a {
    background-position: center;
    background-size: cover;
 }
+
+/* menambahkan class "sama-rata" pada baris pembungkus card item */
+.row.sama-rata>div>.card {
+   height: 100%;
+}
