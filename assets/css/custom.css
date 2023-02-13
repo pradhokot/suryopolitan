@@ -15,7 +15,7 @@ a {
 }
 
 /* change carousel to full screen */
-.carousel.carousel-banner .carousel-item {
+.carousel.carousel-fullscreen .carousel-item {
    height: 100vh;
    background-color: #323232;
    background-repeat: no-repeat;
@@ -24,6 +24,30 @@ a {
 }
 
 /* hide/ erase carousel item img when carousel-banner is added to carousel class */
-.carousel.carousel-banner .carousel-item>img {
+.carousel.carousel-fullscreen .carousel-item>img {
    display: none !important;
+}
+
+/* custom gutter on .row > .col */
+.row.g-3,
+.d-flex.g-3 {
+   margin-left: -7.5px;
+   margin-right: -7.5px;
+}
+
+.row.g-3>div,
+.d-flex.g-3>div {
+   padding-left: 7.5px;
+   padding-right: 7.5px;
+}
+
+/* custom horisontal card */
+.card .row.no-gutters .card-body {
+   padding: 15px;
+}
+
+.card .row.no-gutters .card-body-img {
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 }

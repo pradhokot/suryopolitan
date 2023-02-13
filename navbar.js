@@ -1,5 +1,5 @@
 document.write(`
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm d-block">
+<nav class="navbar navbar-expand-lg navbar-light shadow-sm d-block bg-white">
    <!-- gunakan class "container-fluid" untuk full width dan "container" untuk menyesuaikan dengan standar template -->
    <div class="container">
 
