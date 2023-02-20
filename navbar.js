@@ -10,7 +10,7 @@ document.write(`
       </button>
 
       <div class="navbar-collapse collapse" id="navcol">
-         <div class="input-group border rounded order-xl-2 mr-xl-2">
+         <div class="input-group border rounded mt-2 order-xl-2 mt-xl-0 mr-xl-2">
             <input type="text" class="form-control border-0 bg-transparent" placeholder="Cari Disini..">
             <div class="input-group-append">
                <button class="btn"><i class="bi bi-search"></i></button>
@@ -51,13 +51,7 @@ document.write(`
 </nav>
 <style>
    .navbar-brand img {
-      width: 150px
-   }
-
-   @media (min-width: 1200px) {
-      .navbar-brand img {
-         width: 190px;
-      }
+      width: calc(175px + 2.5vw);
    }
 
    @media (min-width: 1200px) {

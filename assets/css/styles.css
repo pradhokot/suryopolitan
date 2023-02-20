@@ -13,8 +13,8 @@ body {
       padding-right: 0;
    }
 
-   .container,
-   .navbar>.container {
+   .navbar>.container,
+   .container {
       padding-left: calc(1.25rem + .25vw);
       padding-right: calc(1.25rem + .25vw);
    }
