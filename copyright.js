@@ -56,8 +56,7 @@ document.write(`
 
             <div class="col-lg-auto order-lg-1">
                &copy; 2023 SuryoPolitan. All rights reserved.<br class="d-lg-none"> Made with <i
-                  class="bi bi-heartbreak text-danger"></i> in
-               Indonesia.
+                  class="bi bi-heartbreak text-danger"></i> by <small>PRADHOKOT</small>.
             </div>
          </div>
       </div>
