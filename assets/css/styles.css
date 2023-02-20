@@ -1,57 +1,35 @@
 html,
 body {
-   color: #323232;
-   background-color: white;
    font-family: Arial, Helvetica, sans-serif;
+   background-color: #f1f2f2;
+   color: #565656;
 }
+
+/* custom container */
+
+@media (max-width: 1199.98px) {
+   .navbar {
+      padding-left: 0;
+      padding-right: 0;
+   }
+
+   .container,
+   .navbar>.container {
+      padding-left: calc(1.25rem + .25vw);
+      padding-right: calc(1.25rem + .25vw);
+   }
+}
+
+@media (min-width: 1400px) {
+
+   .container,
+   .navbar .container {
+      max-width: 1320px;
+   }
+}
+
+/* custom section */
 
 .wrapper>section {
-   margin-bottom: calc(100px + 2vw);
-}
-
-/* ==================== NAVBAR ==================== */
-
-@media (min-width: 992px) {
-   .navbar .input-group {
-      max-width: 210px;
-   }
-}
-
-/* multi dropdown on navbar */
-@media (min-width: 768px) {
-   .navbar .multi-dropdown {
-      display: flex;
-   }
-
-   .navbar .multi-dropdown .dropdown-list {
-      width: 50%;
-   }
-}
-
-@media (min-width: 768px) {
-   .navbar .multi-dropdown .dropdown-list {
-      width: 50%;
-   }
-}
-
-/* navbar dropdown hover on desktop */
-@media (min-width: 992px) {
-   .navbar .dropdown:hover .dropdown-menu {
-      display: block;
-   }
-}
-
-/* erase border button navbar > input group on desktop */
-@media (min-width: 992px) {
-   .navbar .input-group.border {
-      border: solid 1px transparent !important;
-   }
-}
-
-/* borderless dropdown menu on mobile */
-@media (max-width: 991.98px) {
-   .navbar .dropdown-menu {
-      border: solid 1px transparent;
-      background-color: #f8f9fa;
-   }
+   margin-bottom: calc(70px + 1vw);
 }

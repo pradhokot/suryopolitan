@@ -4,7 +4,7 @@
 <head>
    <!-- head component -->
    <script src="head.js"></script>
-   <title>SURYOPOLITAN &copy; Home</title>
+   <title>SUPRESSO &copy; Home</title>
    <style>
       /* garis bantu */
       * {
@@ -15,185 +15,98 @@
 
 <body>
 
-   <div id="navtop" class="fixed-top">
+   <!-- header topbar -->
+   <header id="topbar" class="bg-white fixed-top border-bottom shadow">
       <!-- navigasi bar -->
       <script src="navbar.js"></script>
-   </div>
+   </header>
 
    <!-- banner -->
+   <!-- tambahkan class "vh-100" di carousel-item untuk full height -->
    <script src="banner.js"></script>
 
-   <main class="wrapper">
+   <main class="wrapper pt-5">
 
-      <!-- vertical card template -->
       <section>
          <div class="container">
-            <h3 class="mb-4"><strong>Kelas Popular Minggu Ini</strong></h3>
-
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 sama-rata">
-
-               <!-- card item -->
-               <div class="col mb-4">
-                  <div class="card">
-                     <img src="assets/img/square.png" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                           Some quick example text to build on the card title and make up the bulk of
-                           the card's content. Some quick example text to build on the card title and make up the bulk
-                           of the card's content. Some quick example text to build on the card title and make up the
-                           bulk of the card's content.
-                        </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card shadow">
+               <div class="card-body text-center">
+                  <div class="row align-items-center">
+                     <div class="col-xl-auto mb-3 mb-xl-0">
+                        <div class="row align-items-center">
+                           <div class="col-lg-auto mb-3 mb-lg-0 pr-lg-0">
+                              <img src="assets/img/logo.ico" width="50" height="50" alt="">
+                           </div>
+                           <div class="col-lg-auto">
+                              <h4 class="font-weight-bold mb-0">Siap untuk menjadi Programmer profesional?</h4>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-xl-auto d-md-flex gap-md-3 ml-xl-auto">
+                        <a href="#" class="btn btn-success w-100 text-nowrap mb-2 mb-md-0">Mulai Belajar Gratis</a>
+                        <a href="#" class="btn btn-outline-success w-100 text-nowrap">
+                           <i class="bi bi-whatsapp mr-2"></i> Nanya Dulu
+                        </a>
                      </div>
                   </div>
                </div>
-
-               <!-- card item -->
-               <div class="col mb-4">
-                  <div class="card">
-                     <img src="assets/img/square.png" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                           Some quick example text to build on the card title and make up the bulk of
-                           the card's content.
-                        </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                     </div>
-                  </div>
-               </div>
-
-               <!-- card item -->
-               <div class="col mb-4">
-                  <div class="card">
-                     <img src="assets/img/square.png" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                           Some quick example text to build on the card title and make up the bulk of
-                           the card's content.
-                        </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                     </div>
-                  </div>
-               </div>
-
-               <!-- card item -->
-               <div class="col mb-4">
-                  <div class="card">
-                     <img src="assets/img/square.png" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                           Some quick example text to build on the card title and make up the bulk of
-                           the card's content.
-                        </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                     </div>
-                  </div>
-               </div>
-
             </div>
          </div>
       </section>
 
-      <!-- horisontal card template -->
-      <!-- image dapat dimasukkan kedalam class "card-body-img" sebagai background-image / menambahkan tag img di dalam tag card-body-img -->
       <section>
          <div class="container">
-            <h3 class="mb-4"><strong>Eksplorasi Materi Codepolitan</strong></h3>
-
-            <div class="row row-cols-1 row-cols-md-2 g-3 sama-rata sama-rata">
-
-               <!-- card item -->
-               <div class="col mb-4">
-                  <div class="card overflow-hidden">
-                     <div class="row no-gutters h-100">
-                        <div class="col-4 h-100">
-                           <div
-                              class="card-body card-body-img h-100 pr-0 bg-secondary d-flex justify-content-center align-items-start">
-                              <img src="assets/img/square.png" class="card-img" alt="...">
-                           </div>
-                        </div>
-                        <div class="col-8 h-100">
-                           <div class="card-body h-100 overflow-auto">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in
-                                 to additional content. This content is a little bit longer.</p>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+            <header class="d-lg-flex align-items-center mb-4">
+               <h3 class="font-weight-bold mr-lg-auto mb-0">Beragam Roadmap Belajar</h3>
+               <a href="#">Lihat Semua <i class="bi bi-chevron-right"></i></a>
+            </header>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-3">
+               <!-- card item 1 -->
+               <div class="col">
+                  <script src="card1.js"></script>
                </div>
-
-               <!-- card item -->
-               <div class="col mb-4">
-                  <div class="card overflow-hidden">
-                     <div class="row no-gutters h-100">
-                        <div class="col-4 h-100">
-                           <div
-                              class="card-body card-body-img h-100 pr-0 bg-secondary d-flex justify-content-center align-items-center">
-                              <img src="assets/img/square.png" class="card-img" alt="...">
-                           </div>
-                        </div>
-                        <div class="col-8 h-100">
-                           <div class="card-body h-100 overflow-auto">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in
-                                 to additional content. This content is a little bit longer.</p>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+               <!-- card item 1 -->
+               <div class="col">
+                  <script src="card1.js"></script>
                </div>
-
-               <!-- card item -->
-               <div class="col mb-4">
-                  <div class="card overflow-hidden">
-                     <div class="row no-gutters h-100">
-                        <div class="col-4 h-100">
-                           <div
-                              class="card-body card-body-img h-100 pr-0 bg-secondary d-flex justify-content-center align-items-end">
-                              <img src="assets/img/square.png" class="card-img" alt="...">
-                           </div>
-                        </div>
-                        <div class="col-8 h-100">
-                           <div class="card-body h-100 overflow-auto">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in
-                                 to additional content. This content is a little bit longer.</p>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+               <!-- card item 1 -->
+               <div class="col">
+                  <script src="card1.js"></script>
                </div>
-
-               <!-- card item -->
-               <div class="col mb-4">
-                  <div class="card overflow-hidden">
-                     <div class="row no-gutters h-100">
-                        <div class="col-4 h-100">
-                           <div
-                              class="card-body card-body-img h-100 pr-0 bg-secondary d-flex justify-content-center align-items-start">
-                              <!-- <img src="assets/img/square.png" class="card-img" alt="..."> -->
-                           </div>
-                        </div>
-                        <div class="col-8 h-100">
-                           <div class="card-body h-100 overflow-auto">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in
-                                 to additional content. This content is a little bit longer.</p>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+               <!-- card item 1 -->
+               <div class="col">
+                  <script src="card1.js"></script>
                </div>
+            </div>
+         </div>
+      </section>
 
+      <section>
+         <div class="container">
+            <header class="d-lg-flex align-items-center mb-4">
+               <h3 class="font-weight-bold mr-lg-auto mb-0">Eksplorasi Materi Codepolitan</h3>
+               <a href="#">Lihat Semua <i class="bi bi-chevron-right"></i></a>
+            </header>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-3">
+               <!-- card item 3 -->
+               <div class="col">
+                  <script src="card1.js"></script>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section>
+         <div class="container">
+            <header class="d-lg-flex align-items-center mb-4">
+               <h3 class="font-weight-bold mr-lg-auto mb-0">Flash Sale</h3>
+               <a href="#">Lihat Semua <i class="bi bi-chevron-right"></i></a>
+            </header>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-3">
+               <!-- card item 3 -->
+               <div class="col">
+                  <script src="card1.js"></script>
+               </div>
             </div>
          </div>
       </section>

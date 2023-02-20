@@ -1,5 +1,5 @@
 document.write(`
-<footer class="bg-light text-center border-top">
+<footer class="text-center border-top bg-white">
    <div class="container text-left pt-5">
       <div class="row justify-content-lg-between">
          <div class="col-6 col-md-4 col-lg-auto">
@@ -55,7 +55,7 @@ document.write(`
             </div>
 
             <div class="col-lg-auto order-lg-1">
-               &copy; 2023 IndraCode. All rights reserved.<br class="d-lg-none"> Made with <i
+               &copy; 2023 SuryoPolitan. All rights reserved.<br class="d-lg-none"> Made with <i
                   class="bi bi-heartbreak text-danger"></i> in
                Indonesia.
             </div>

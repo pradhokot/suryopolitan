@@ -1,3 +1,4 @@
+document.write(`
 <div class="card overflow-hidden">
    <img src="assets/img/portrait.png" class="card-img-top" alt="">
    <div class="card-img-overlay text-capitalize text-light top-unset">
@@ -8,3 +9,4 @@
       <a href="#" class="btn btn-primary">Beginner</a>
    </div>
 </div>
+`)
