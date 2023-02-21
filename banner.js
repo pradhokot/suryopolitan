@@ -4,7 +4,7 @@ document.write(`
    <div class="carousel-inner">
 
       <!-- banner item -->
-      <div class="carousel-item vh-100 active">
+      <div class="carousel-item active">
          <div class="carousel-caption text-md-left">
             <div class="container-xl">
                <div class="row">
@@ -23,7 +23,7 @@ document.write(`
       </div>
 
       <!-- banner item -->
-      <div class="carousel-item vh-100">
+      <div class="carousel-item">
          <div class="carousel-caption text-md-left">
             <div class="container-xl">
                <div class="row">

@@ -43,8 +43,8 @@ document.write(`
          </ul>
 
          <div class="d-xl-flex order-xl-3">
-            <button class="btn btn-light btn-block mr-xl-2 font-weight-bold">LOGIN</button>
-            <button class="btn btn-primary btn-block mt-xl-0 font-weight-bold">REGISTER</button>
+            <button class="btn btn-light btn-block mr-xl-2 font-weight-bold" data-toggle="modal" data-target="#modal-login">LOGIN</button>
+            <button class="btn btn-primary btn-block mt-xl-0 font-weight-bold" data-toggle="modal" data-target="#modal-register">REGISTER</button>
          </div>
       </div>
    </div>
