@@ -6,7 +6,7 @@ document.write(`
       <p class="card-text">
          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
       </p>
-      <a href="#" class="btn btn-primary">Beginner</a>
+      <a href="detail.html" class="btn btn-primary">Beginner</a>
    </div>
 </div>
 `)
