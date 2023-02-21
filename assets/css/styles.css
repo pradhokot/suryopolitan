@@ -5,8 +5,7 @@ body {
    color: #565656;
 }
 
-/* custom container */
-
+/*============================== custom container */
 @media (max-width: 1199.98px) {
    .navbar {
       padding-left: 0;
@@ -28,8 +27,123 @@ body {
    }
 }
 
-/* custom section */
-
+/*============================== custom section */
 .wrapper>section {
    margin-bottom: calc(70px + 1vw);
+}
+
+a {
+   color: inherit;
+}
+
+.vh-100 {
+   height: 100vh;
+}
+
+/*============================== custom gutter */
+.g-3 {
+   margin-left: -7.5px;
+   margin-right: -7.5px;
+   margin-top: -15px;
+}
+
+.g-3>div {
+   padding-left: 7.5px;
+   padding-right: 7.5px;
+   margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+   .g-md-3 {
+      margin-left: -7.5px;
+      margin-right: -7.5px;
+      margin-top: -15px;
+   }
+
+   .g-md-3>div {
+      padding-left: 7.5px;
+      padding-right: 7.5px;
+      margin-top: 15px;
+   }
+}
+
+@media (min-width: 992px) {
+   .g-lg-3 {
+      margin-left: -7.5px;
+      margin-right: -7.5px;
+      margin-top: -15px;
+   }
+
+   .g-lg-3>div {
+      padding-left: 7.5px;
+      padding-right: 7.5px;
+      margin-top: 15px;
+   }
+}
+
+/*============================== custom gap */
+.gap-1 {
+   grid-gap: .25rem;
+}
+
+.gap-2 {
+   grid-gap: .5rem;
+}
+
+.gap-3 {
+   grid-gap: 15px;
+}
+
+@media (min-width: 678px) {
+   .gap-md-1 {
+      grid-gap: .25rem;
+   }
+
+   .gap-md-2 {
+      grid-gap: .5rem;
+   }
+
+   .gap-md-3 {
+      grid-gap: 15px;
+   }
+}
+
+@media (min-width: 992px) {
+   .gap-lg-1 {
+      grid-gap: .25rem;
+   }
+
+   .gap-lg-2 {
+      grid-gap: .5rem;
+   }
+
+   .gap-lg-3 {
+      grid-gap: 15px;
+   }
+}
+
+/*============================== custom position */
+.top-unset {
+   top: unset;
+}
+
+.bottom-0 {
+   bottom: 0;
+}
+
+.left-0 {
+   left: 0;
+}
+
+.right-0 {
+   right: 0;
+}
+
+/*============================== custom pagination */
+.pagination li a {
+   color: inherit;
+}
+
+.pagination li.disabled a span {
+   opacity: .5;
 }

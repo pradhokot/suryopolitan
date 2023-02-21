@@ -11,10 +11,10 @@ document.write(`
 
       <div class="navbar-collapse collapse" id="navcol">
          <div class="input-group border rounded mt-2 order-xl-2 mt-xl-0 mr-xl-2">
-            <input type="text" class="form-control border-0 bg-transparent" placeholder="Cari Disini..">
-            <div class="input-group-append">
+            <div class="input-group-prepend">
                <button class="btn"><i class="bi bi-search"></i></button>
             </div>
+            <input type="text" class="form-control border-0 bg-transparent pl-0" placeholder="Temukan..">
          </div>
 
          <ul class="navbar-nav text-uppercase font-weight-bold my-3 my-xl-0 mr-xl-4 order-xl-1 mr-xl-auto">
@@ -43,7 +43,7 @@ document.write(`
          </ul>
 
          <div class="d-xl-flex order-xl-3">
-            <button class="btn btn-light btn-block mr-xl-2 font-weight-bold" data-toggle="modal" data-target="#modal-login">LOGIN</button>
+            <button class="btn btn-secondary btn-block mr-xl-2 font-weight-bold" data-toggle="modal" data-target="#modal-login">LOGIN</button>
             <button class="btn btn-primary btn-block mt-xl-0 font-weight-bold" data-toggle="modal" data-target="#modal-register">REGISTER</button>
          </div>
       </div>
