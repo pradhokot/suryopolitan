@@ -17,16 +17,16 @@ document.write(`
       </p>
    </div>
    <div class="card-footer small font-weight-bold">
-      <div class="row">
-         <div class="col-4">Beli</div>
-         <div class="col-8 text-right">
+      <div class="row justify-content-between">
+         <div class="col-auto">Beli</div>
+         <div class="col text-right">
             <del class="text-danger mr-2">Rp 380.000,-</del>
             <span>Rp 129.000</span>
          </div>
       </div>
-      <div class="row">
-         <div class="col-4">Sewa</div>
-         <div class="col-8 text-right">
+      <div class="row justify-content-between">
+         <div class="col-auto">Sewa</div>
+         <div class="col text-right">
             <del class="text-danger mr-2">Rp 380.000,-</del>
             <span>Rp 129.000</span>
          </div>
