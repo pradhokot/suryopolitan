@@ -21,11 +21,70 @@ document.write(`
             <li class="nav-item dropdown">
                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">courses</a>
                <div class="dropdown-menu text-capitalize">
-                  <a href="#" class="dropdown-item">Lorem Ipsum</a>
-                  <a href="#" class="dropdown-item">Lorem Ipsum</a>
-                  <a href="#" class="dropdown-item">Lorem Ipsum</a>
-                  <a href="#" class="dropdown-item">Lorem Ipsum</a>
-                  <a href="#" class="dropdown-item">Lorem Ipsum</a>
+                  <div class="subnav">
+                     <div class="container-fluid">
+                        <div class="row row-cols-1 row-cols-lg-3 g-xl-3">
+                           <div class="col">
+                              <h6 class="nav-title">kategori</h6>
+                              <ul class="navbar-nav flex-column mb-4 mb-xl-0">
+                                 <li class="nav-item"><a href="#" class="nav-link">web development</a></li>
+                                 <li class="nav-item"><a href="#" class="nav-link">mobile development</a></li>
+                                 <li class="nav-item"><a href="#" class="nav-link">studi kasus</a></li>
+                                 <li class="nav-item"><a href="#" class="nav-link">fundamental</a></li>
+                                 <li class="nav-item"><a href="#" class="nav-link">pemula</a></li>
+                                 <li class="nav-item"><a href="#" class="nav-link">menengah</a></li>
+                                 <li class="nav-item"><a href="#" class="nav-link">framework</a></li>
+                                 <li class="nav-item"><a href="#" class="nav-link">front end</a></li>
+                                 <li class="nav-item"><a href="#" class="nav-link">back end</a></li>
+                              </ul>
+                           </div>
+                           <div class="col">
+                              <h6 class="nav-title">kategori</h6>
+                              <ul class="navbar-nav flex-column mb-4 mb-xl-0">
+                                 <li class="nav-item"><a href="#" class="nav-link">web development</a></li>
+                                 <li class="nav-item"><a href="#" class="nav-link">mobile development</a></li>
+                                 <li class="nav-item"><a href="#" class="nav-link">studi kasus</a></li>
+                                 <li class="nav-item"><a href="#" class="nav-link">fundamental</a></li>
+                                 <li class="nav-item"><a href="#" class="nav-link">pemula</a></li>
+                                 <li class="nav-item"><a href="#" class="nav-link">menengah</a></li>
+                                 <li class="nav-item"><a href="#" class="nav-link">framework</a></li>
+                                 <li class="nav-item"><a href="#" class="nav-link">front end</a></li>
+                                 <li class="nav-item"><a href="#" class="nav-link">back end</a></li>
+                              </ul>
+                           </div>
+                           <div class="col">
+                              <h6 class="nav-title">kategori</h6>
+                              <ul class="navbar-nav flex-column mb-4 mb-xl-0">
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                       <i class="bi bi-apple mr-2"></i> web development
+                                    </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                       <i class="bi bi-apple mr-2"></i> web development
+                                    </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                       <i class="bi bi-apple mr-2"></i> web development
+                                    </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                       <i class="bi bi-apple mr-2"></i> web development
+                                    </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                       <i class="bi bi-apple mr-2"></i> web development
+                                    </a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </li>
             <li class="nav-item dropdown">
@@ -63,6 +122,38 @@ document.write(`
    @media (min-width: 1400px) {
       .navbar-expand-xl .navbar-nav .nav-link {
          padding: .5rem .875rem;
+      }
+   }
+
+   /* sub navbar */
+   .subnav .nav-title {
+      font-weight: bold;
+      text-transform: uppercase;
+   }
+
+   .subnav .row {
+      width: calc(100% + 30px);
+   }
+
+   .subnav .nav-link {
+      font-weight: normal;
+      display: block;
+   }
+
+   @media (max-width: 1199.98px) {
+      .subnav {
+         max-height: 60vh;
+         overflow-y: auto;
+      }
+   }
+
+   @media (min-width: 1200px) {
+      .subnav {
+         width: 640px;
+      }
+
+      .subnav .nav-link {
+         font-size: .875em;
       }
    }
 </style>

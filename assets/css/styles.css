@@ -137,6 +137,20 @@ section a.d-inline {
    }
 }
 
+@media (min-width: 1200px) {
+   .g-xl-3 {
+      margin-left: -7.5px;
+      margin-right: -7.5px;
+      margin-top: -15px;
+   }
+
+   .g-xl-3>div {
+      padding-left: 7.5px;
+      padding-right: 7.5px;
+      margin-top: 15px;
+   }
+}
+
 /*============================== custom gap */
 .gap-1 {
    grid-gap: .25rem;
