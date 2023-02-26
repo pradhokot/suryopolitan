@@ -4,6 +4,7 @@
 <head>
    <!-- head component -->
    <script src="head.js"></script>
+   <link rel="stylesheet" href="assets/css/slider.css">
    <title>SUPRESSO &bull; Beranda</title>
    <style>
       /* garis bantu */
@@ -62,23 +63,44 @@
                <h3 class="font-weight-bold mr-md-auto mb-md-0">Beragam Roadmap Belajar</h3>
                <a href="kelas.html" class="text-primary"><u>Lihat Semua <i class="bi bi-chevron-right"></i></u></a>
             </header>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-3">
-               <!-- card item 1 -->
-               <div class="col">
-                  <script src="card1.js"></script>
+            <div id="sliderProductRodmap" class="carousel slide carousel-product" data-ride="carousel"
+               data-interval="3000" data-pause="false">
+
+               <div class="w-100 overflow-hidden">
+                  <div
+                     class="carousel-inner row flex-nowrap daftar-produk row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-3"
+                     style="width: calc(100% + 15px);" role="listbox">
+                     <!-- produk item -->
+                     <div class="carousel-item produk-item active">
+                        <script src="card1.js"></script>
+                     </div>
+                     <!-- produk item -->
+                     <div class="carousel-item produk-item">
+                        <script src="card1.js"></script>
+                     </div>
+                     <!-- produk item -->
+                     <div class="carousel-item produk-item">
+                        <script src="card1.js"></script>
+                     </div>
+                     <!-- produk item -->
+                     <div class="carousel-item produk-item">
+                        <script src="card1.js"></script>
+                     </div>
+                  </div>
                </div>
-               <!-- card item 1 -->
-               <div class="col">
-                  <script src="card1.js"></script>
-               </div>
-               <!-- card item 1 -->
-               <div class="col">
-                  <script src="card1.js"></script>
-               </div>
-               <!-- card item 1 -->
-               <div class="col">
-                  <script src="card1.js"></script>
-               </div>
+
+               <a class="carousel-control carousel-control-prev w-auto" href="#sliderProductRodmap" role="button"
+                  data-slide="prev" style="transform: translateX(-50%);">
+                  <i class="bi bi-chevron-left"></i>
+                  <span class="sr-only">Previous</span>
+               </a>
+
+               <a class="carousel-control carousel-control-next w-auto" href="#sliderProductRodmap" role="button"
+                  data-slide="next" style="transform: translateX(50%);">
+                  <i class="bi bi-chevron-right"></i>
+                  <span class="sr-only">Next</span>
+               </a>
+
             </div>
          </div>
       </section>
@@ -89,28 +111,52 @@
                <h3 class="font-weight-bold mr-md-auto mb-md-0">Eksplorasi Materi Codepolitan</h3>
                <a href="kelas.html" class="text-primary"><u>Lihat Semua <i class="bi bi-chevron-right"></i></u></a>
             </header>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-3">
-               <!-- card item 3 -->
-               <div class="col">
-                  <a href="kelas.html" class="d-inline">
-                     <script src="card2.js"></script>
-                  </a>
+            <div id="sliderProductMateri" class="carousel slide carousel-product" data-ride="carousel"
+               data-interval="3000" data-pause="false">
+
+               <div class="w-100 overflow-hidden">
+                  <div
+                     class="carousel-inner row flex-nowrap daftar-produk row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-3"
+                     style="width: calc(100% + 15px);" role="listbox">
+                     <!-- produk item -->
+                     <div class="carousel-item produk-item active">
+                        <a href="kelas.html">
+                           <script src="card2.js"></script>
+                        </a>
+                     </div>
+                     <!-- produk item -->
+                     <div class="carousel-item produk-item">
+                        <a href="kelas.html">
+                           <script src="card2.js"></script>
+                        </a>
+                     </div>
+                     <!-- produk item -->
+                     <div class="carousel-item produk-item">
+                        <a href="kelas.html">
+                           <script src="card2.js"></script>
+                        </a>
+                     </div>
+                     <!-- produk item -->
+                     <div class="carousel-item produk-item">
+                        <a href="kelas.html">
+                           <script src="card2.js"></script>
+                        </a>
+                     </div>
+                  </div>
                </div>
-               <div class="col">
-                  <a href="kelas.html" class="d-inline">
-                     <script src="card2.js"></script>
-                  </a>
-               </div>
-               <div class="col">
-                  <a href="kelas.html" class="d-inline">
-                     <script src="card2.js"></script>
-                  </a>
-               </div>
-               <div class="col">
-                  <a href="kelas.html" class="d-inline">
-                     <script src="card2.js"></script>
-                  </a>
-               </div>
+
+               <a class="carousel-control carousel-control-prev w-auto" href="#sliderProductMateri" role="button"
+                  data-slide="prev" style="transform: translateX(-50%);">
+                  <i class="bi bi-chevron-left"></i>
+                  <span class="sr-only">Previous</span>
+               </a>
+
+               <a class="carousel-control carousel-control-next w-auto" href="#sliderProductMateri" role="button"
+                  data-slide="next" style="transform: translateX(50%);">
+                  <i class="bi bi-chevron-right"></i>
+                  <span class="sr-only">Next</span>
+               </a>
+
             </div>
       </section>
 
@@ -120,28 +166,52 @@
                <h3 class="font-weight-bold mr-md-auto mb-md-0">Flash Sale</h3>
                <a href="kelas.html" class="text-primary"><u>Lihat Semua <i class="bi bi-chevron-right"></i></u></a>
             </header>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-3">
-               <!-- card item 3 -->
-               <div class="col">
-                  <a href="detail.html" class="d-inline">
-                     <script src="card3.js"></script>
-                  </a>
+            <div id="sliderProductFlashSale" class="carousel slide carousel-product" data-ride="carousel"
+               data-interval="3000" data-pause="false">
+
+               <div class="w-100 overflow-hidden">
+                  <div
+                     class="carousel-inner row flex-nowrap daftar-produk row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-3"
+                     style="width: calc(100% + 15px);" role="listbox">
+                     <!-- produk item -->
+                     <div class="carousel-item produk-item active">
+                        <a href="detail.html" class="text-inherit text-decoration-none">
+                           <script src="card3.js"></script>
+                        </a>
+                     </div>
+                     <!-- produk item -->
+                     <div class="carousel-item produk-item">
+                        <a href="detail.html" class="text-inherit text-decoration-none">
+                           <script src="card3.js"></script>
+                        </a>
+                     </div>
+                     <!-- produk item -->
+                     <div class="carousel-item produk-item">
+                        <a href="detail.html" class="text-inherit text-decoration-none">
+                           <script src="card3.js"></script>
+                        </a>
+                     </div>
+                     <!-- produk item -->
+                     <div class="carousel-item produk-item">
+                        <a href="detail.html" class="text-inherit text-decoration-none">
+                           <script src="card3.js"></script>
+                        </a>
+                     </div>
+                  </div>
                </div>
-               <div class="col">
-                  <a href="detail.html" class="d-inline">
-                     <script src="card3.js"></script>
-                  </a>
-               </div>
-               <div class="col">
-                  <a href="detail.html" class="d-inline">
-                     <script src="card3.js"></script>
-                  </a>
-               </div>
-               <div class="col">
-                  <a href="detail.html" class="d-inline">
-                     <script src="card3.js"></script>
-                  </a>
-               </div>
+
+               <a class="carousel-control carousel-control-prev w-auto" href="#sliderProductFlashSale" role="button"
+                  data-slide="prev" style="transform: translateX(-50%);">
+                  <i class="bi bi-chevron-left"></i>
+                  <span class="sr-only">Previous</span>
+               </a>
+
+               <a class="carousel-control carousel-control-next w-auto" href="#sliderProductFlashSale" role="button"
+                  data-slide="next" style="transform: translateX(50%);">
+                  <i class="bi bi-chevron-right"></i>
+                  <span class="sr-only">Next</span>
+               </a>
+
             </div>
          </div>
       </section>
