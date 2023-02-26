@@ -195,3 +195,9 @@ section a.d-inline {
 .pagination li.disabled a span {
    opacity: .5;
 }
+
+/*============================== custom carousel */
+.carousel.carousel-fullscreen .carousel-item {
+   height: 100vh !important;
+   min-height: 560px;
+}

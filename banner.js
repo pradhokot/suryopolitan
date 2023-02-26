@@ -1,5 +1,5 @@
 document.write(`
-<div id="home-banner" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false"
+<div id="home-banner" class="carousel slide carousel-fade carousel-fullscreen" data-ride="carousel" data-interval="false"
    data-pause="false">
    <div class="carousel-inner">
 
@@ -80,16 +80,6 @@ document.write(`
    @media (min-width: 992px) {
       #home-banner .carousel-item {
          height: 82vh;
-      }
-   }
-
-   #home-banner .carousel-item.vh-100 {
-      min-height: 480px;
-   }
-
-   @media (min-width: 768px) {
-      #home-banner .carousel-item.vh-100 {
-         min-height: 560px;
       }
    }
 
