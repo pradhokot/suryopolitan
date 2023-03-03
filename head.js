@@ -5,5 +5,6 @@ document.write(`
 <link rel="icon" href="assets/img/ikon-logo.ico">
 <link rel="stylesheet" href="assets/bootstrap-4.6.2-dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/bootstrap-icons-1.9.1/bootstrap-icons.css">
+<link rel="stylesheet" href="assets/swiper/swiper-bundle.min.css">
 <link rel="stylesheet" href="assets/css/styles.css">
 `)
