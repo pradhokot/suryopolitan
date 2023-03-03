@@ -223,3 +223,60 @@ section a.d-inline {
    height: 100vh !important;
    min-height: 560px;
 }
+
+/*============================== custom navigation swiper */
+.swiper-container {
+   position: relative;
+}
+
+.swiper {
+   position: unset;
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+   width: 45px;
+   height: 45px;
+   border-radius: 100%;
+   background-color: white;
+   color: #323232;
+   border: 1px solid rgba(0, 0, 0, .125);
+   opacity: .5;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+   opacity: 1;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+   font-size: 1.75rem;
+}
+
+.swiper-button-prev {
+   left: 0;
+   transform: translateX(-37.5%);
+}
+
+.swiper-button-next {
+   right: 0;
+   transform: translateX(37.5%);
+}
+
+.card.shadow-sm,
+.card.shadow-sm {
+   margin: .875rem 0;
+}
+
+@media (min-width: 576px) {
+   .swiper-button-prev {
+      transform: translateX(-50%);
+   }
+
+   .swiper-button-next {
+      transform: translateX(50%);
+   }
+}

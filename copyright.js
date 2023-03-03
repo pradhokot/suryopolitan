@@ -1,5 +1,5 @@
 document.write(`
-<footer class="text-center border-top bg-white">
+<footer class="text-center border-top bg-white small">
    <div class="container text-left pt-5">
       <div class="row justify-content-lg-between">
          <div class="col-6 col-md-4 col-lg-auto">

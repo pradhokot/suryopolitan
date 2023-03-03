@@ -1,5 +1,5 @@
 document.write(`
-<div class="card shadow">
+<div class="card shadow-sm">
    <img src="assets/img/lanscape.png" class="card-img-top rounded" alt="">
    <div class="card-body text-capitalize">
       <p class="card-text small mb-1">by suryo atmojo MIT</p>

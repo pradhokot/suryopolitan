@@ -41,15 +41,36 @@ document.write(`
                            <div class="col">
                               <h6 class="nav-title">kategori</h6>
                               <ul class="navbar-nav flex-column mb-4 mb-xl-0">
-                                 <li class="nav-item"><a href="#" class="nav-link">web development</a></li>
-                                 <li class="nav-item"><a href="#" class="nav-link">mobile development</a></li>
-                                 <li class="nav-item"><a href="#" class="nav-link">studi kasus</a></li>
-                                 <li class="nav-item"><a href="#" class="nav-link">fundamental</a></li>
-                                 <li class="nav-item"><a href="#" class="nav-link">pemula</a></li>
-                                 <li class="nav-item"><a href="#" class="nav-link">menengah</a></li>
-                                 <li class="nav-item"><a href="#" class="nav-link">framework</a></li>
-                                 <li class="nav-item"><a href="#" class="nav-link">front end</a></li>
-                                 <li class="nav-item"><a href="#" class="nav-link">back end</a></li>
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                       <img src="assets/img/square.png" width="20" height="auto" class="mr-2" alt=""> web development
+                                    </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                       <img src="assets/img/square.png" width="20" height="auto" class="mr-2" alt=""> web development
+                                    </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                       <img src="assets/img/square.png" width="20" height="auto" class="mr-2" alt=""> web development
+                                    </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                       <img src="assets/img/square.png" width="20" height="auto" class="mr-2" alt=""> web development
+                                    </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                       <img src="assets/img/square.png" width="20" height="auto" class="mr-2" alt=""> web development
+                                    </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                       <img src="assets/img/square.png" width="20" height="auto" class="mr-2" alt=""> web development
+                                    </a>
+                                 </li>
                               </ul>
                            </div>
                            <div class="col">
@@ -154,6 +175,30 @@ document.write(`
 
       .subnav .nav-link {
          font-size: .875em;
+      }
+   }
+
+   @media (min-width: 992px) {
+      .nav-title {
+         padding-top: 1rem;
+         padding-left: .5rem;
+      }
+   }
+
+   @media (min-width: 1400px) {
+      .nav-title {
+         padding-left: .875rem;
+      }
+   }
+
+   /* navbar dropdown */
+   @media (min-width: 992px) {
+      .navbar .dropdown-menu {
+         box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+      }
+      
+      .navbar .dropdown:hover .dropdown-menu {
+         display: block;
       }
    }
 </style>

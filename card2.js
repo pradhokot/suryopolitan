@@ -1,5 +1,5 @@
 document.write(`
-<div class="card shadow">
+<div class="card shadow-sm">
    <div class="card-body" style="padding: 15px;">
       <div class="row align-items-center g-3">
          <div class="col-4">
