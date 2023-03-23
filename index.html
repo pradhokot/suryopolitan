@@ -24,7 +24,8 @@
 		<nav class="navbar navbar-expand-lg">
 			<div class="container">
 				<a class="navbar-brand d-flex align-items-center" href="index.html">
-					<img src="assets/img/logo.svg" height="auto" style="width: calc(175px + 3vw);" alt="">
+					<img src="assets/img/logo.svg" height="auto" style="width: calc(175px + 5vw); max-width: 260px;"
+						alt="">
 				</a>
 				<button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
 					data-bs-target="#navcol" aria-controls="navcol" aria-expanded="false"
@@ -176,7 +177,10 @@
 		.navbar .nav-link:hover,
 		.navbar .dropdown:hover>.nav-link,
 		.navbar .dropdown-item:hover,
-		.navbar .col:hover>h6 {
+		.navbar .col:hover>h6,
+		.navbar .nav-link.active,
+		.navbar .dropdown.active>.nav-link,
+		.navbar .dropdown-item.active {
 			color: rgba(0, 0, 0, 1);
 		}
 
@@ -305,10 +309,192 @@
 	<main class="wrapper">
 
 		<section>
-			<div class="container"></div>
+			<div class="container">
+				<div class="card shadow">
+					<div class="card-body text-center">
+						<div class="row align-items-center gap-4 justify-content-lg-center gap-xl-0 g-xl-3">
+							<div class="col-12 col-lg-auto">
+								<img src="assets/img/ikon-logo.svg" class="img-fluid" style="width: calc(100px - 3vw);"
+									alt="">
+							</div>
+							<div class="col-12 col-lg-auto">
+								<h4 class="fw-semibold">Siap untuk menjadi Programmer professional?</h4>
+							</div>
+							<div class="col-12 col-xl-4 ms-xl-auto">
+								<div class="d-grid d-lg-flex gap-2">
+									<a href="#" class="w-100 btn btn-success order-md-2">Mulai Belajar Gratis</a>
+									<a href="#" class="w-100 btn btn-outline-success order-md-1">
+										<i class="bi bi-whatsapp me-2"></i> Tanya Dulu
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 
-		<section style="height: 360px;"></section>
+		<section>
+			<div class="container">
+				<h3 class="mb-4 fw-semibold">Beragam Roadmap Belajar</h3>
+				<div class="row">
+					<div class="col-md-6 col-lg-4 col-xl-3">
+
+						<!-- card 1 -->
+						<div class="card text-bg-dark h-100">
+							<img src="assets/img/portrait.png" class="card-img" alt="">
+							<div class="card-img-overlay top-unset bottom-0">
+								<h4 class="card-title fw-semibold text-capitalize">
+									mahir machines learning dalam 1 jam
+								</h4>
+								<p class="card-text text-truncate mb-4">
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse ex vitae distinctio
+									fugiat dicta amet accusamus dolorem voluptatum doloribus eum, a animi aut libero ut!
+									A ipsam soluta deleniti corporis.
+								</p>
+								<a class="btn btn-primary" href="#">
+									Beginner <i class="bi bi-chevron-right"></i>
+								</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<h3 class="mb-4 fw-semibold">Eksplorasi Materi Codepolitan</h3>
+				<div class="row">
+					<div class="col col-md-6 col-lg-4">
+
+						<!-- card 2 -->
+						<a class="text-decoration-none" href="#">
+							<div class="card overflow-hidden h-100 text-dark">
+								<div class="card-body">
+									<div class="row align-items-start g-3">
+										<div class="col-3">
+											<img src="assets/img/square.png" class="img-fluid rounded" alt="">
+										</div>
+										<div class="col-9">
+											<h5 class="card-title fw-semibold text-capitalize">
+												mahir machines learning dalam 1 jam
+											</h5>
+											<p class="card-text">
+												<i class="bi bi-journal-album fs-5 me-2"></i> 2 Kelas
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<h3 class="mb-4 fw-semibold">Flash Sale</h3>
+				<div class="row">
+					<div class="col-md-6 col-lg-4 col-xl-3">
+
+						<!-- card 3 -->
+						<a class="text-decoration-none" href="#">
+							<div class="card overflow-hidden h-100 text-dark">
+								<img src="assets/img/lanscape.png" class="card-img-top" alt="">
+								<div class="card-body">
+									<p class="card-text text-capitalize mb-1">
+										by yoggi pradhokot MIT
+									</p>
+									<h5 class="card-title fw-semibold text-capitalize mb-3">
+										membuat website company profile dari nol sampai mahir
+									</h5>
+									<div class="card-text mb-3 row row-cols-2">
+										<div class="col"><i class="bi bi-bar-chart-fill me-2"></i> beginner</div>
+										<div class="col"><i class="bi bi-alarm-fill me-2"></i> 12 jam</div>
+										<div class="col"><i class="bi bi-people-fill me-2"></i> 80 siswa</div>
+										<div class="col"><i class="bi bi-book-fill me-2"></i> 62 modul</div>
+									</div>
+									<p class="card-text">
+										<i class="bi bi-star-fill mr-2 text-warning"></i> 5.0 &nbsp;&nbsp; (100)
+										Penilaian
+									</p>
+								</div>
+								<div class="card-footer">
+									<div class="row justify-content-between">
+										<div class="col-auto">Beli</div>
+										<div class="col text-end">
+											<del class="text-danger me-2">Rp 380.000,-</del>
+											<span>Rp 129.000</span>
+										</div>
+									</div>
+									<div class="row justify-content-between">
+										<div class="col-auto">Sewa</div>
+										<div class="col text-end">
+											<del class="text-danger me-2">Rp 100.000,-</del>
+											<span>Rp 88.000</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<h3 class="mb-4 fw-semibold text-center">Telah Dipercaya Oleh :</h3>
+				<div
+					class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 g-3 justify-content-center">
+					<div class="col"><img src="assets/img/lanscape.png" class="img-fluid rounded" alt=""></div>
+					<div class="col"><img src="assets/img/lanscape.png" class="img-fluid rounded" alt=""></div>
+					<div class="col"><img src="assets/img/lanscape.png" class="img-fluid rounded" alt=""></div>
+					<div class="col"><img src="assets/img/lanscape.png" class="img-fluid rounded" alt=""></div>
+					<div class="col"><img src="assets/img/lanscape.png" class="img-fluid rounded" alt=""></div>
+					<div class="col"><img src="assets/img/lanscape.png" class="img-fluid rounded" alt=""></div>
+					<div class="col"><img src="assets/img/lanscape.png" class="img-fluid rounded" alt=""></div>
+					<div class="col"><img src="assets/img/lanscape.png" class="img-fluid rounded" alt=""></div>
+					<div class="col"><img src="assets/img/lanscape.png" class="img-fluid rounded" alt=""></div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<h3 class="mb-4 fw-semibold text-center">Mitra Kampus Kami :</h3>
+				<div class="row justify-content-center">
+					<div class="col-lg-8 col-xl-7">
+						<div
+							class="row row-cols-2 row-cols-sm-3 row-cols-lg-4 row-cols-xl-5 g-3 justify-content-center">
+							<div class="col"><img src="assets/img/square.png" class="img-fluid rounded" alt="">
+							</div>
+							<div class="col"><img src="assets/img/square.png" class="img-fluid rounded" alt="">
+							</div>
+							<div class="col"><img src="assets/img/square.png" class="img-fluid rounded" alt="">
+							</div>
+							<div class="col"><img src="assets/img/square.png" class="img-fluid rounded" alt="">
+							</div>
+							<div class="col"><img src="assets/img/square.png" class="img-fluid rounded" alt="">
+							</div>
+							<div class="col"><img src="assets/img/square.png" class="img-fluid rounded" alt="">
+							</div>
+							<div class="col"><img src="assets/img/square.png" class="img-fluid rounded" alt="">
+							</div>
+							<div class="col"><img src="assets/img/square.png" class="img-fluid rounded" alt="">
+							</div>
+							<div class="col"><img src="assets/img/square.png" class="img-fluid rounded" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 	</main>
 
@@ -318,41 +504,35 @@
 				<div class="col mb-5">
 					<h6 class="fw-semibold text-uppercase mb-3">join us</h6>
 					<nav class="nav flex-column text-capitalize">
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
+						<a class="nav-link py-1 px-0" href="#">how to learn</a>
+						<a class="nav-link py-1 px-0" href="#">term of use</a>
+						<a class="nav-link py-1 px-0" href="#">frequenly asked questions</a>
+						<a class="nav-link py-1 px-0" href="#">privacy policy</a>
 					</nav>
 				</div>
 				<div class="col mb-5">
 					<h6 class="fw-semibold text-uppercase mb-3">program</h6>
 					<nav class="nav flex-column text-capitalize">
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
+						<a class="nav-link py-1 px-0" href="#">kelas fullstack.id</a>
+						<a class="nav-link py-1 px-0" href="#">online bootcamp catamyst</a>
+						<a class="nav-link py-1 px-0" href="#">become a mentor</a>
+						<a class="nav-link py-1 px-0" href="#">karir</a>
 					</nav>
 				</div>
 				<div class="col mb-5">
 					<h6 class="fw-semibold text-uppercase mb-3">developers</h6>
 					<nav class="nav flex-column text-capitalize">
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
+						<a class="nav-link py-1 px-0" href="#">forum discussions</a>
+						<a class="nav-link py-1 px-0" href="#">hall of fame</a>
+						<a class="nav-link py-1 px-0" href="#">leaderboard</a>
+						<a class="nav-link py-1 px-0" href="#">mentor</a>
 					</nav>
 				</div>
 				<div class="col mb-5">
 					<h6 class="fw-semibold text-uppercase mb-3">company</h6>
 					<nav class="nav flex-column text-capitalize">
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
-						<a class="nav-link py-1 px-0" href="#">menu copyright 1</a>
+						<a class="nav-link py-1 px-0" href="#">about suryopolitan</a>
+						<a class="nav-link py-1 px-0" href="#">tutorial & artikel</a>
 					</nav>
 				</div>
 			</div>
@@ -376,6 +556,16 @@
 			</div>
 		</div>
 	</footer>
+	<style>
+		#copyright a {
+			color: rgba(0, 0, 0, .6);
+		}
+
+		#copyright a:hover,
+		#copyright a.active {
+			color: rgba(0, 0, 0, 1);
+		}
+	</style>
 
 	<script src="assets/jquery-3.6.1/jquery-3.6.1.min.js"></script>
 	<script src="assets/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
