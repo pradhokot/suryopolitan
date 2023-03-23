@@ -13,14 +13,14 @@
 	<link rel="stylesheet" href="assets/css/styles.css">
 	<style>
 		* {
-			outline: solid 1px green;
+			/* outline: solid 1px green; */
 		}
 	</style>
 </head>
 
 <body>
 
-	<header id="topbar" class="sticky-top border-bottom bg-white">
+	<header id="topbar" class="sticky-top bg-white">
 		<nav class="navbar navbar-expand-lg">
 			<div class="container">
 				<a class="navbar-brand d-flex align-items-center" href="index.html">
@@ -36,21 +36,91 @@
 						<input class="form-control bg-transparent border-0 rounded-0" type="text" placeholder="Search">
 						<button class="btn" type="submit"><i class="bi bi-search"></i></button>
 					</form>
-					<ul class="navbar-nav my-3 text-uppercase gap-xxl-3">
+					<ul class="navbar-nav my-3 text-uppercase fw-semibold gap-xxl-3">
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
-								aria-haspopup="true" aria-expanded="false">courses</a>
-							<div class="dropdown-menu" aria-labelledby="dropdownId">
-								<a class="dropdown-item" href="#">Action 1</a>
-								<a class="dropdown-item" href="#">Action 2</a>
+							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
+								aria-expanded="false">courses</a>
+							<div class="dropdown-menu text-capitalize py-4 px-2" id="dropdown-courses">
+								<div class="container-fluid">
+									<div class="row row-cols-1 row-cols-lg-3 gap-4 gap-lg-0 g-lg-3">
+										<div class="col">
+											<h6 class="text-uppercase fw-semibold mb-2 mb-lg-3">kategori 1</h6>
+											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+												<img src="assets/img/square.png" class="img-fluid me-2" width="24"
+													alt=""> <span>menu dropdown sangat panjang</span>
+											</a>
+											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+												<img src="assets/img/square.png" class="img-fluid me-2" width="24"
+													alt=""> <span>menu dropdown</span>
+											</a>
+											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+												<img src="assets/img/square.png" class="img-fluid me-2" width="24"
+													alt=""> <span>menu dropdown</span>
+											</a>
+											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+												<img src="assets/img/square.png" class="img-fluid me-2" width="24"
+													alt=""> <span>menu dropdown</span>
+											</a>
+											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+												<img src="assets/img/square.png" class="img-fluid me-2" width="24"
+													alt=""> <span>menu dropdown</span>
+											</a>
+										</div>
+										<div class="col">
+											<h6 class="text-uppercase fw-semibold mb-2 mb-lg-3">kategori 2</h6>
+											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+												<i class="bi bi-apple me-2"></i> menu dropdown sangat panjang
+											</a>
+											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+												<i class="bi bi-apple me-2"></i> menu dropdown
+											</a>
+											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+												<i class="bi bi-apple me-2"></i> menu dropdown
+											</a>
+											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+												<i class="bi bi-apple me-2"></i> menu dropdown
+											</a>
+											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+												<i class="bi bi-apple me-2"></i> menu dropdown
+											</a>
+											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+												<i class="bi bi-apple me-2"></i> menu dropdown
+											</a>
+											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+												<i class="bi bi-apple me-2"></i> menu dropdown
+											</a>
+											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+												<i class="bi bi-apple me-2"></i> menu dropdown
+											</a>
+										</div>
+										<div class="col">
+											<h6 class="text-uppercase fw-semibold mb-2 mb-lg-3">kategori 3</h6>
+											<a class="dropdown-item px-0" href="#">menu dropdown</a>
+											<a class="dropdown-item px-0" href="#">menu dropdown</a>
+											<a class="dropdown-item px-0" href="#">menu dropdown</a>
+											<a class="dropdown-item px-0" href="#">menu dropdown</a>
+											<a class="dropdown-item px-0" href="#">menu dropdown</a>
+											<a class="dropdown-item px-0" href="#">menu dropdown</a>
+											<a class="dropdown-item px-0" href="#">menu dropdown</a>
+											<a class="dropdown-item px-0" href="#">menu dropdown</a>
+											<a class="dropdown-item px-0" href="#">menu dropdown</a>
+										</div>
+									</div>
+								</div>
 							</div>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
-								aria-haspopup="true" aria-expanded="false">explore</a>
-							<div class="dropdown-menu" aria-labelledby="dropdownId">
-								<a class="dropdown-item" href="#">Action 1</a>
-								<a class="dropdown-item" href="#">Action 2</a>
+							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
+								aria-expanded="false">explore</a>
+							<div class="dropdown-menu text-capitalize py-4 px-2">
+								<div class="container-fluid">
+									<a class="dropdown-item px-0" href="#">Action 1</a>
+									<a class="dropdown-item px-0" href="#">Action 2</a>
+									<a class="dropdown-item px-0" href="#">Action 3</a>
+									<a class="dropdown-item px-0" href="#">Action 4</a>
+									<a class="dropdown-item px-0" href="#">Action 5</a>
+									<a class="dropdown-item px-0" href="#">Action 6</a>
+								</div>
 							</div>
 						</li>
 						<li class="nav-item">
@@ -60,7 +130,7 @@
 							<a class="nav-link" href="#">partnership</a>
 						</li>
 					</ul>
-					<div class="d-grid gap-2 d-lg-flex gap-xxl-3">
+					<div class="d-grid gap-2 d-lg-flex">
 						<a href="#" class="btn btn-secondary w-100">LOGIN</a>
 						<a href="#" class="btn btn-primary w-100">REGISTER</a>
 					</div>
@@ -68,6 +138,56 @@
 			</div>
 		</nav>
 	</header>
+	<style>
+		@media (max-width: 991.98px) {
+			.navbar .navbar-nav .dropdown-menu {
+				max-height: 50vh;
+				overflow-y: auto;
+			}
+		}
+
+		@media (min-width: 992px) {
+			.navbar .navbar-nav .dropdown-menu {
+				min-width: 210px;
+			}
+
+			.navbar .navbar-nav .dropdown:hover .dropdown-menu {
+				display: block;
+			}
+
+			#dropdown-courses {
+				width: 640px;
+			}
+		}
+
+		.navbar .navbar-nav .dropdown-item {
+			white-space: unset;
+		}
+
+		.navbar,
+		.navbar .nav-link,
+		.navbar .dropdown>.nav-link,
+		.navbar .dropdown-item,
+		.navbar h6 {
+			background-color: transparent;
+			color: rgba(0, 0, 0, .6);
+		}
+
+		.navbar .nav-link:hover,
+		.navbar .dropdown:hover>.nav-link,
+		.navbar .dropdown-item:hover,
+		.navbar .col:hover>h6 {
+			color: rgba(0, 0, 0, 1);
+		}
+
+		.navbar .dropdown-item img {
+			opacity: .6;
+		}
+
+		.navbar .dropdown-item:hover img {
+			opacity: 1;
+		}
+	</style>
 
 	<!-- home banner -->
 	<div id="home-banner" class="carousel slide text-bg-dark carousel-fullscreen" data-bs-ride="carousel">
@@ -154,7 +274,7 @@
 			<div class="container"></div>
 		</section>
 
-		<section style="height: 992px;"></section>
+		<section style="height: 360px;"></section>
 
 	</main>
 
