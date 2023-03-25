@@ -1,205 +1,170 @@
 document.write(`
-<nav class='navbar navbar-expand-xl navbar-light py-xl-3'>
-   <div class="container">
-      <a href="index.html" class="navbar-brand">
-         <img src="assets/img/logo.svg" class="img-auto" alt="">
-      </a>
-
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol">
-         <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="navbar-collapse collapse" id="navcol">
-         <div class="input-group border rounded mt-2 order-xl-2 mt-xl-0 mr-xl-2">
-            <div class="input-group-prepend">
-               <button class="btn"><i class="bi bi-search"></i></button>
-            </div>
-            <input type="text" class="form-control border-0 bg-transparent pl-0" placeholder="Temukan..">
-         </div>
-
-         <ul class="navbar-nav text-uppercase font-weight-bold my-3 my-xl-0 mr-xl-4 order-xl-1 mr-xl-auto">
-            <li class="nav-item dropdown">
-               <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">courses</a>
-               <div class="dropdown-menu text-capitalize">
-                  <div class="subnav">
-                     <div class="container-fluid">
-                        <div class="row row-cols-1 row-cols-lg-3 g-xl-3">
-                           <div class="col">
-                              <h6 class="nav-title">kategori</h6>
-                              <ul class="navbar-nav flex-column mb-4 mb-xl-0">
-                                 <li class="nav-item"><a href="#" class="nav-link">web development</a></li>
-                                 <li class="nav-item"><a href="#" class="nav-link">mobile development</a></li>
-                                 <li class="nav-item"><a href="#" class="nav-link">studi kasus</a></li>
-                                 <li class="nav-item"><a href="#" class="nav-link">fundamental</a></li>
-                                 <li class="nav-item"><a href="#" class="nav-link">pemula</a></li>
-                                 <li class="nav-item"><a href="#" class="nav-link">menengah</a></li>
-                                 <li class="nav-item"><a href="#" class="nav-link">framework</a></li>
-                                 <li class="nav-item"><a href="#" class="nav-link">front end</a></li>
-                                 <li class="nav-item"><a href="#" class="nav-link">back end</a></li>
-                              </ul>
-                           </div>
-                           <div class="col">
-                              <h6 class="nav-title">kategori</h6>
-                              <ul class="navbar-nav flex-column mb-4 mb-xl-0">
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                       <img src="assets/img/square.png" width="20" height="auto" class="mr-2" alt=""> web development
+<nav id="navtop" class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="assets/img/logo.svg" height="auto" style="width: calc(175px + 5vw); max-width: 260px;" alt="">
+        </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navcol"
+            aria-controls="navcol" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse gap-lg-3 gap-xxl-4" id="navcol">
+            <form class="d-flex border rounded my-2 my-lg-0 ms-lg-auto">
+                <input class="form-control bg-transparent border-0 rounded-0" type="text" placeholder="Search">
+                <button class="btn" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <ul class="navbar-nav my-3 text-uppercase fw-semibold gap-xxl-3">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">courses</a>
+                    <div class="dropdown-menu text-capitalize py-4 px-2" id="dropdown-courses">
+                        <div class="container-fluid">
+                            <div class="row row-cols-1 row-cols-lg-3 gap-4 gap-lg-0 g-lg-3">
+                                <div class="col">
+                                    <h6 class="text-uppercase fw-semibold mb-2 mb-lg-3">kategori 1</h6>
+                                    <a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+                                        <img src="assets/img/square.png" class="img-fluid me-2" width="24" alt="">
+                                        <span>menu dropdown sangat panjang</span>
                                     </a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                       <img src="assets/img/square.png" width="20" height="auto" class="mr-2" alt=""> web development
+                                    <a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+                                        <img src="assets/img/square.png" class="img-fluid me-2" width="24" alt="">
+                                        <span>menu dropdown</span>
                                     </a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                       <img src="assets/img/square.png" width="20" height="auto" class="mr-2" alt=""> web development
+                                    <a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+                                        <img src="assets/img/square.png" class="img-fluid me-2" width="24" alt="">
+                                        <span>menu dropdown</span>
                                     </a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                       <img src="assets/img/square.png" width="20" height="auto" class="mr-2" alt=""> web development
+                                    <a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+                                        <img src="assets/img/square.png" class="img-fluid me-2" width="24" alt="">
+                                        <span>menu dropdown</span>
                                     </a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                       <img src="assets/img/square.png" width="20" height="auto" class="mr-2" alt=""> web development
+                                    <a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+                                        <img src="assets/img/square.png" class="img-fluid me-2" width="24" alt="">
+                                        <span>menu dropdown</span>
                                     </a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                       <img src="assets/img/square.png" width="20" height="auto" class="mr-2" alt=""> web development
+                                </div>
+                                <div class="col">
+                                    <h6 class="text-uppercase fw-semibold mb-2 mb-lg-3">kategori 2</h6>
+                                    <a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+                                        <i class="bi bi-apple me-2"></i> menu dropdown sangat panjang
                                     </a>
-                                 </li>
-                              </ul>
-                           </div>
-                           <div class="col">
-                              <h6 class="nav-title">kategori</h6>
-                              <ul class="navbar-nav flex-column mb-4 mb-xl-0">
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                       <i class="bi bi-apple mr-2"></i> web development
+                                    <a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+                                        <i class="bi bi-apple me-2"></i> menu dropdown
                                     </a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                       <i class="bi bi-apple mr-2"></i> web development
+                                    <a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+                                        <i class="bi bi-apple me-2"></i> menu dropdown
                                     </a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                       <i class="bi bi-apple mr-2"></i> web development
+                                    <a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+                                        <i class="bi bi-apple me-2"></i> menu dropdown
                                     </a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                       <i class="bi bi-apple mr-2"></i> web development
+                                    <a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+                                        <i class="bi bi-apple me-2"></i> menu dropdown
                                     </a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                       <i class="bi bi-apple mr-2"></i> web development
+                                    <a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+                                        <i class="bi bi-apple me-2"></i> menu dropdown
                                     </a>
-                                 </li>
-                              </ul>
-                           </div>
+                                    <a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+                                        <i class="bi bi-apple me-2"></i> menu dropdown
+                                    </a>
+                                    <a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
+                                        <i class="bi bi-apple me-2"></i> menu dropdown
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <h6 class="text-uppercase fw-semibold mb-2 mb-lg-3">kategori 3</h6>
+                                    <a class="dropdown-item px-0" href="#">menu dropdown</a>
+                                    <a class="dropdown-item px-0" href="#">menu dropdown</a>
+                                    <a class="dropdown-item px-0" href="#">menu dropdown</a>
+                                    <a class="dropdown-item px-0" href="#">menu dropdown</a>
+                                    <a class="dropdown-item px-0" href="#">menu dropdown</a>
+                                    <a class="dropdown-item px-0" href="#">menu dropdown</a>
+                                    <a class="dropdown-item px-0" href="#">menu dropdown</a>
+                                    <a class="dropdown-item px-0" href="#">menu dropdown</a>
+                                    <a class="dropdown-item px-0" href="#">menu dropdown</a>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-               </div>
-            </li>
-            <li class="nav-item dropdown">
-               <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">explore</a>
-               <div class="dropdown-menu text-capitalize">
-                  <a href="#" class="dropdown-item">Lorem Ipsum</a>
-                  <a href="#" class="dropdown-item">Lorem Ipsum</a>
-                  <a href="#" class="dropdown-item">Lorem Ipsum</a>
-                  <a href="#" class="dropdown-item">Lorem Ipsum</a>
-                  <a href="#" class="dropdown-item">Lorem Ipsum</a>
-               </div>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">program</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">partnership</a></li>
-         </ul>
-
-         <div class="d-xl-flex order-xl-3">
-            <button class="btn btn-secondary btn-block mr-xl-2 font-weight-bold" data-toggle="modal" data-target="#modal-login">LOGIN</button>
-            <button class="btn btn-primary btn-block mt-xl-0 font-weight-bold" data-toggle="modal" data-target="#modal-register">REGISTER</button>
-         </div>
-      </div>
-   </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">explore</a>
+                    <div class="dropdown-menu text-capitalize py-4 px-2">
+                        <div class="container-fluid">
+                            <a class="dropdown-item px-0" href="#">Action 1</a>
+                            <a class="dropdown-item px-0" href="#">Action 2</a>
+                            <a class="dropdown-item px-0" href="#">Action 3</a>
+                            <a class="dropdown-item px-0" href="#">Action 4</a>
+                            <a class="dropdown-item px-0" href="#">Action 5</a>
+                            <a class="dropdown-item px-0" href="#">Action 6</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">program</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">partnership</a>
+                </li>
+            </ul>
+            <div class="d-grid gap-2 d-lg-flex">
+                <a href="#" class="btn btn-secondary w-100">LOGIN</a>
+                <a href="#" class="btn btn-primary w-100">REGISTER</a>
+            </div>
+        </div>
+    </div>
 </nav>
 <style>
-   .navbar-brand img {
-      width: calc(175px + 2.5vw);
-   }
+    @media (max-width: 991.98px) {
+        #navtop .navbar-nav .dropdown-menu {
+            max-height: 50vh;
+            overflow-y: auto;
+        }
+    }
 
-   @media (min-width: 1200px) {
-      .navbar .input-group {
-         max-width: 235px;
-      }
-   }
+    @media (min-width: 992px) {
+        #navtop .navbar-nav .dropdown-menu {
+            min-width: 210px;
+        }
 
-   @media (min-width: 1400px) {
-      .navbar-expand-xl .navbar-nav .nav-link {
-         padding: .5rem .875rem;
-      }
-   }
+        #navtop .navbar-nav .dropdown:hover .dropdown-menu {
+            display: block;
+        }
 
-   /* sub navbar */
-   .subnav .nav-title {
-      font-weight: bold;
-      text-transform: uppercase;
-   }
+        #dropdown-courses {
+            width: 640px;
+        }
+    }
 
-   .subnav .row {
-      width: calc(100% + 30px);
-   }
+    #navtop .navbar-nav .dropdown-item {
+        white-space: unset;
+    }
 
-   .subnav .nav-link {
-      font-weight: normal;
-      display: block;
-   }
+    .navbar,
+    #navtop .nav-link,
+    #navtop .dropdown>.nav-link,
+    #navtop .dropdown-item,
+    #navtop h6 {
+        background-color: transparent;
+        color: rgba(0, 0, 0, .6);
+    }
 
-   @media (max-width: 1199.98px) {
-      .subnav {
-         max-height: 60vh;
-         overflow-y: auto;
-      }
-   }
+    #navtop .nav-link:hover,
+    #navtop .dropdown:hover>.nav-link,
+    #navtop .dropdown-item:hover,
+    #navtop .col:hover>h6,
+    #navtop .nav-link.active,
+    #navtop .dropdown.active>.nav-link,
+    #navtop .dropdown-item.active {
+        color: rgba(0, 0, 0, 1);
+    }
 
-   @media (min-width: 1200px) {
-      .subnav {
-         width: 640px;
-      }
+    #navtop .dropdown-item img {
+        opacity: .6;
+    }
 
-      .subnav .nav-link {
-         font-size: .875em;
-      }
-   }
-
-   @media (min-width: 992px) {
-      .nav-title {
-         padding-top: 1rem;
-         padding-left: .5rem;
-      }
-   }
-
-   @media (min-width: 1400px) {
-      .nav-title {
-         padding-left: .875rem;
-      }
-   }
-
-   /* navbar dropdown */
-   @media (min-width: 992px) {
-      .navbar .dropdown-menu {
-         box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
-      }
-      
-      .navbar .dropdown:hover .dropdown-menu {
-         display: block;
-      }
-   }
+    #navtop .dropdown-item:hover img {
+        opacity: 1;
+    }
 </style>
 `)

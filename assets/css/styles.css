@@ -8,7 +8,7 @@ body {
    max-width: 1320px;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 991.98px) {
    .container {
       padding-left: 1.375rem;
       padding-right: 1.375rem;
@@ -25,4 +25,29 @@ body {
 
 .top-unset {
    top: unset;
+}
+
+.dropdown-menu.text-capitalize .dropdown-item {
+   text-transform: capitalize;
+}
+
+@media (min-width: 991.98px) {
+   .w-lg-auto {
+      width: auto;
+   }
+}
+
+/* custom topbar */
+#topbar {
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   z-index: 1020;
+   --bs-bg-opacity: 1;
+   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+   border-bottom: transparent;
+}
+
+.scroll #topbar {
+   border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
 }

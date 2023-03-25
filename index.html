@@ -2,15 +2,8 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="head.js"></script>
 	<title>PRADHOKOT &bull; Beranda</title>
-	<link rel="icon" href="assets/img/ikon-logo.ico">
-	<link rel="stylesheet" href="assets/bootstrap-5.2.3-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/bootstrap-icons-1.10.3/bootstrap-icons.css">
-	<link rel="stylesheet" href="assets/swiper/swiper-bundle.min.css">
-	<link rel="stylesheet" href="assets/css/styles.css">
 	<style>
 		* {
 			/* outline: solid 1px green; */
@@ -20,291 +13,11 @@
 
 <body>
 
-	<header id="topbar" class="sticky-top bg-white border-bottom">
-		<nav class="navbar navbar-expand-lg">
-			<div class="container">
-				<a class="navbar-brand d-flex align-items-center" href="index.html">
-					<img src="assets/img/logo.svg" height="auto" style="width: calc(175px + 5vw); max-width: 260px;"
-						alt="">
-				</a>
-				<button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
-					data-bs-target="#navcol" aria-controls="navcol" aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse gap-lg-3 gap-xxl-4" id="navcol">
-					<form class="d-flex border rounded my-2 my-lg-0 ms-lg-auto">
-						<input class="form-control bg-transparent border-0 rounded-0" type="text" placeholder="Search">
-						<button class="btn" type="submit"><i class="bi bi-search"></i></button>
-					</form>
-					<ul class="navbar-nav my-3 text-uppercase fw-semibold gap-xxl-3">
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
-								aria-expanded="false">courses</a>
-							<div class="dropdown-menu text-capitalize py-4 px-2" id="dropdown-courses">
-								<div class="container-fluid">
-									<div class="row row-cols-1 row-cols-lg-3 gap-4 gap-lg-0 g-lg-3">
-										<div class="col">
-											<h6 class="text-uppercase fw-semibold mb-2 mb-lg-3">kategori 1</h6>
-											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
-												<img src="assets/img/square.png" class="img-fluid me-2" width="24"
-													alt=""> <span>menu dropdown sangat panjang</span>
-											</a>
-											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
-												<img src="assets/img/square.png" class="img-fluid me-2" width="24"
-													alt=""> <span>menu dropdown</span>
-											</a>
-											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
-												<img src="assets/img/square.png" class="img-fluid me-2" width="24"
-													alt=""> <span>menu dropdown</span>
-											</a>
-											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
-												<img src="assets/img/square.png" class="img-fluid me-2" width="24"
-													alt=""> <span>menu dropdown</span>
-											</a>
-											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
-												<img src="assets/img/square.png" class="img-fluid me-2" width="24"
-													alt=""> <span>menu dropdown</span>
-											</a>
-										</div>
-										<div class="col">
-											<h6 class="text-uppercase fw-semibold mb-2 mb-lg-3">kategori 2</h6>
-											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
-												<i class="bi bi-apple me-2"></i> menu dropdown sangat panjang
-											</a>
-											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
-												<i class="bi bi-apple me-2"></i> menu dropdown
-											</a>
-											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
-												<i class="bi bi-apple me-2"></i> menu dropdown
-											</a>
-											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
-												<i class="bi bi-apple me-2"></i> menu dropdown
-											</a>
-											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
-												<i class="bi bi-apple me-2"></i> menu dropdown
-											</a>
-											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
-												<i class="bi bi-apple me-2"></i> menu dropdown
-											</a>
-											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
-												<i class="bi bi-apple me-2"></i> menu dropdown
-											</a>
-											<a class="dropdown-item px-0 d-flex flex-nowrap align-items-start" href="#">
-												<i class="bi bi-apple me-2"></i> menu dropdown
-											</a>
-										</div>
-										<div class="col">
-											<h6 class="text-uppercase fw-semibold mb-2 mb-lg-3">kategori 3</h6>
-											<a class="dropdown-item px-0" href="#">menu dropdown</a>
-											<a class="dropdown-item px-0" href="#">menu dropdown</a>
-											<a class="dropdown-item px-0" href="#">menu dropdown</a>
-											<a class="dropdown-item px-0" href="#">menu dropdown</a>
-											<a class="dropdown-item px-0" href="#">menu dropdown</a>
-											<a class="dropdown-item px-0" href="#">menu dropdown</a>
-											<a class="dropdown-item px-0" href="#">menu dropdown</a>
-											<a class="dropdown-item px-0" href="#">menu dropdown</a>
-											<a class="dropdown-item px-0" href="#">menu dropdown</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
-								aria-expanded="false">explore</a>
-							<div class="dropdown-menu text-capitalize py-4 px-2">
-								<div class="container-fluid">
-									<a class="dropdown-item px-0" href="#">Action 1</a>
-									<a class="dropdown-item px-0" href="#">Action 2</a>
-									<a class="dropdown-item px-0" href="#">Action 3</a>
-									<a class="dropdown-item px-0" href="#">Action 4</a>
-									<a class="dropdown-item px-0" href="#">Action 5</a>
-									<a class="dropdown-item px-0" href="#">Action 6</a>
-								</div>
-							</div>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">program</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">partnership</a>
-						</li>
-					</ul>
-					<div class="d-grid gap-2 d-lg-flex">
-						<a href="#" class="btn btn-secondary w-100">LOGIN</a>
-						<a href="#" class="btn btn-primary w-100">REGISTER</a>
-					</div>
-				</div>
-			</div>
-		</nav>
+	<header id="topbar">
+		<script src="navbar.js"></script>
 	</header>
-	<style>
-		@media (max-width: 991.98px) {
-			.navbar .navbar-nav .dropdown-menu {
-				max-height: 50vh;
-				overflow-y: auto;
-			}
-		}
 
-		@media (min-width: 992px) {
-			.navbar .navbar-nav .dropdown-menu {
-				min-width: 210px;
-			}
-
-			.navbar .navbar-nav .dropdown:hover .dropdown-menu {
-				display: block;
-			}
-
-			#dropdown-courses {
-				width: 640px;
-			}
-		}
-
-		.navbar .navbar-nav .dropdown-item {
-			white-space: unset;
-		}
-
-		.navbar,
-		.navbar .nav-link,
-		.navbar .dropdown>.nav-link,
-		.navbar .dropdown-item,
-		.navbar h6 {
-			background-color: transparent;
-			color: rgba(0, 0, 0, .6);
-		}
-
-		.navbar .nav-link:hover,
-		.navbar .dropdown:hover>.nav-link,
-		.navbar .dropdown-item:hover,
-		.navbar .col:hover>h6,
-		.navbar .nav-link.active,
-		.navbar .dropdown.active>.nav-link,
-		.navbar .dropdown-item.active {
-			color: rgba(0, 0, 0, 1);
-		}
-
-		.navbar .dropdown-item img {
-			opacity: .6;
-		}
-
-		.navbar .dropdown-item:hover img {
-			opacity: 1;
-		}
-	</style>
-
-	<!-- home banner -->
-	<div id="home-banner" class="carousel slide text-bg-dark carousel-fullscreen" data-bs-ride="carousel">
-		<ol class="carousel-indicators">
-			<li data-bs-target="#home-banner" data-bs-slide-to="0" class="active" aria-current="true"
-				aria-label="First slide"></li>
-			<li data-bs-target="#home-banner" data-bs-slide-to="1" aria-label="Second slide"></li>
-			<li data-bs-target="#home-banner" data-bs-slide-to="2" aria-label="Third slide"></li>
-		</ol>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<div class="carousel-caption h-100">
-					<div class="container h-100">
-						<div class="row h-100 align-items-center">
-							<div class="col-lg-6">
-								<h1 class="display-5">Lorem Ipsum Sit Amet 01.</h1>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								</p>
-								<a href="#" class="btn btn-primary mt-4">
-									READ MORE <i class="bi bi-chevron-right"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<div class="carousel-caption h-100">
-					<div class="container h-100">
-						<div class="row h-100 align-items-center">
-							<div class="col-lg-6">
-								<h1 class="display-5">Lorem Ipsum Sit Amet 02.</h1>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								</p>
-								<a href="#" class="btn btn-primary mt-4">
-									READ MORE <i class="bi bi-chevron-right"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<div class="carousel-caption h-100">
-					<div class="container h-100">
-						<div class="row h-100 align-items-center">
-							<div class="col-lg-6">
-								<h1 class="display-5">Lorem Ipsum Sit Amet 03.</h1>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								</p>
-								<a href="#" class="btn btn-primary mt-4">
-									READ MORE <i class="bi bi-chevron-right"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<button class="carousel-control carousel-control-prev display-3" type="button" data-bs-target="#home-banner"
-			data-bs-slide="prev">
-			<span class="bi bi-chevron-left" aria-hidden="true"></span>
-		</button>
-		<button class="carousel-control carousel-control-next display-3" type="button" data-bs-target="#home-banner"
-			data-bs-slide="next">
-			<span class="bi bi-chevron-right" aria-hidden="true"></span>
-		</button>
-	</div>
-	<style>
-		#home-banner .carousel-item {
-			height: 75vh;
-		}
-
-		#home-banner .carousel-caption {
-			position: unset;
-			margin-left: 15%;
-			margin-right: 15%;
-			text-align: left;
-			padding: 0;
-		}
-
-		@media (min-width: 1200px) {
-			#home-banner .carousel-caption {
-				margin-left: 10%;
-				margin-right: 10%;
-			}
-		}
-
-		@media (min-width: 1200px) {
-			#home-banner .carousel-control {
-				width: 10%;
-				width: 10%;
-			}
-
-		}
-
-		@media (max-width: 1599.98px) {
-
-			#home-banner .carousel-caption .container,
-			#home-banner .carousel-caption .container .row>div {
-				padding-left: 0;
-				padding-right: 0;
-			}
-
-			#home-banner .carousel-caption .container .row {
-				margin-left: 0;
-				margin-right: 0;
-			}
-		}
-	</style>
+	<script src="banner.js"></script>
 
 	<main class="wrapper">
 
@@ -341,22 +54,7 @@
 					<div class="col-md-6 col-lg-4 col-xl-3">
 
 						<!-- card 1 -->
-						<div class="card text-bg-dark h-100">
-							<img src="assets/img/portrait.png" class="card-img" alt="">
-							<div class="card-img-overlay top-unset bottom-0">
-								<h4 class="card-title fw-semibold text-capitalize">
-									mahir machines learning dalam 1 jam
-								</h4>
-								<p class="card-text text-truncate mb-4">
-									Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse ex vitae distinctio
-									fugiat dicta amet accusamus dolorem voluptatum doloribus eum, a animi aut libero ut!
-									A ipsam soluta deleniti corporis.
-								</p>
-								<a class="btn btn-primary" href="#">
-									Beginner <i class="bi bi-chevron-right"></i>
-								</a>
-							</div>
-						</div>
+						<script src="card1.js"></script>
 
 					</div>
 				</div>
@@ -370,25 +68,7 @@
 					<div class="col col-md-6 col-lg-4">
 
 						<!-- card 2 -->
-						<a class="text-decoration-none" href="#">
-							<div class="card overflow-hidden h-100 text-dark">
-								<div class="card-body">
-									<div class="row align-items-start g-3">
-										<div class="col-3">
-											<img src="assets/img/square.png" class="img-fluid rounded" alt="">
-										</div>
-										<div class="col-9">
-											<h5 class="card-title fw-semibold text-capitalize">
-												mahir machines learning dalam 1 jam
-											</h5>
-											<p class="card-text">
-												<i class="bi bi-journal-album fs-5 me-2"></i> 2 Kelas
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</a>
+						<script src="card2.js"></script>
 
 					</div>
 				</div>
@@ -402,45 +82,7 @@
 					<div class="col-md-6 col-lg-4 col-xl-3">
 
 						<!-- card 3 -->
-						<a class="text-decoration-none" href="#">
-							<div class="card overflow-hidden h-100 text-dark">
-								<img src="assets/img/lanscape.png" class="card-img-top" alt="">
-								<div class="card-body">
-									<p class="card-text text-capitalize mb-1">
-										by yoggi pradhokot MIT
-									</p>
-									<h5 class="card-title fw-semibold text-capitalize mb-3">
-										membuat website company profile dari nol sampai mahir
-									</h5>
-									<div class="card-text mb-3 row row-cols-2">
-										<div class="col"><i class="bi bi-bar-chart-fill me-2"></i> beginner</div>
-										<div class="col"><i class="bi bi-alarm-fill me-2"></i> 12 jam</div>
-										<div class="col"><i class="bi bi-people-fill me-2"></i> 80 siswa</div>
-										<div class="col"><i class="bi bi-book-fill me-2"></i> 62 modul</div>
-									</div>
-									<p class="card-text">
-										<i class="bi bi-star-fill mr-2 text-warning"></i> 5.0 &nbsp;&nbsp; (100)
-										Penilaian
-									</p>
-								</div>
-								<div class="card-footer">
-									<div class="row justify-content-between">
-										<div class="col-auto">Beli</div>
-										<div class="col text-end">
-											<del class="text-danger me-2">Rp 380.000,-</del>
-											<span>Rp 129.000</span>
-										</div>
-									</div>
-									<div class="row justify-content-between">
-										<div class="col-auto">Sewa</div>
-										<div class="col text-end">
-											<del class="text-danger me-2">Rp 100.000,-</del>
-											<span>Rp 88.000</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</a>
+						<script src="card3.js"></script>
 
 					</div>
 				</div>
@@ -498,79 +140,8 @@
 
 	</main>
 
-	<footer id="copyright" class="bg-light border-top border-dark small">
-		<div class="container pt-5">
-			<div class="row row-cols-2 row-cols-lg-auto justify-content-lg-between">
-				<div class="col mb-5">
-					<h6 class="fw-semibold text-uppercase mb-3">join us</h6>
-					<nav class="nav flex-column text-capitalize">
-						<a class="nav-link py-1 px-0" href="#">how to learn</a>
-						<a class="nav-link py-1 px-0" href="#">term of use</a>
-						<a class="nav-link py-1 px-0" href="#">frequenly asked questions</a>
-						<a class="nav-link py-1 px-0" href="#">privacy policy</a>
-					</nav>
-				</div>
-				<div class="col mb-5">
-					<h6 class="fw-semibold text-uppercase mb-3">program</h6>
-					<nav class="nav flex-column text-capitalize">
-						<a class="nav-link py-1 px-0" href="#">kelas fullstack.id</a>
-						<a class="nav-link py-1 px-0" href="#">online bootcamp catamyst</a>
-						<a class="nav-link py-1 px-0" href="#">become a mentor</a>
-						<a class="nav-link py-1 px-0" href="#">karir</a>
-					</nav>
-				</div>
-				<div class="col mb-5">
-					<h6 class="fw-semibold text-uppercase mb-3">developers</h6>
-					<nav class="nav flex-column text-capitalize">
-						<a class="nav-link py-1 px-0" href="#">forum discussions</a>
-						<a class="nav-link py-1 px-0" href="#">hall of fame</a>
-						<a class="nav-link py-1 px-0" href="#">leaderboard</a>
-						<a class="nav-link py-1 px-0" href="#">mentor</a>
-					</nav>
-				</div>
-				<div class="col mb-5">
-					<h6 class="fw-semibold text-uppercase mb-3">company</h6>
-					<nav class="nav flex-column text-capitalize">
-						<a class="nav-link py-1 px-0" href="#">about suryopolitan</a>
-						<a class="nav-link py-1 px-0" href="#">tutorial & artikel</a>
-					</nav>
-				</div>
-			</div>
-		</div>
-		<div class="border-top">
-			<div class="container pt-3">
-				<div class="row row-cols-1 row-cols-lg-auto align-items-lg-center justify-content-lg-between">
-					<div class="col mb-3">
-						<nav class="nav fs-3 justify-content-center">
-							<a class="nav-link" href="#"><i class="bi bi-twitter"></i></a>
-							<a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
-							<a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
-							<a class="nav-link" href="#"><i class="bi bi-youtube"></i></a>
-						</nav>
-					</div>
-					<div class="col mb-3 text-center">
-						&copy; 2023 SuryoPolitan. All rights reserved. Made with <i
-							class="bi bi-heartbreak-fill text-danger"></i> by PRADHOKOT.
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<style>
-		#copyright a {
-			color: rgba(0, 0, 0, .6);
-		}
-
-		#copyright a:hover,
-		#copyright a.active {
-			color: rgba(0, 0, 0, 1);
-		}
-	</style>
-
-	<script src="assets/jquery-3.6.1/jquery-3.6.1.min.js"></script>
-	<script src="assets/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
-	<script src="assets/swiper/swiper-bundle.min.js"></script>
-	<script src="assets/js/script.js"></script>
+	<script src="copyright.js"></script>
+	<script src="footer.js"></script>
 
 </body>
 
