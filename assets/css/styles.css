@@ -44,10 +44,12 @@ body {
    top: 0;
    z-index: 1020;
    --bs-bg-opacity: 1;
-   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity));
    border-bottom: transparent;
+   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0);
 }
 
 .scroll #topbar {
-   border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+   border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);
+   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 }
