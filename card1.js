@@ -10,7 +10,7 @@ document.write(`
             fugiat dicta amet accusamus dolorem voluptatum doloribus eum, a animi aut libero ut!
             A ipsam soluta deleniti corporis.
         </p>
-        <a class="btn btn-primary" href="#">
+        <a class="btn btn-primary" href="detail.html">
             Beginner <i class="bi bi-chevron-right"></i>
         </a>
     </div>

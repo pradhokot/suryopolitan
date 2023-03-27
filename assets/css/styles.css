@@ -15,8 +15,14 @@ body {
    }
 }
 
-.wrapper {
-   padding-top: 4rem;
+.wrapper>section:first-of-type {
+   padding-top: 1rem;
+}
+
+@media (min-width: 992px) {
+   .wrapper>section:first-of-type {
+      padding-top: 1.5rem;
+   }
 }
 
 .wrapper>section {

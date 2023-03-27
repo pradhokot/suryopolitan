@@ -2,7 +2,7 @@ document.write(`
 <nav id="navtop" class="navbar navbar-expand-lg">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="index.html">
-            <img src="assets/img/logo.svg" height="auto" style="width: calc(175px + 5vw); max-width: 260px;" alt="">
+            <img src="assets/img/logo.svg" height="auto" style="width: calc(175px + 4vw); max-width: 260px;" alt="">
         </a>
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navcol"
             aria-controls="navcol" aria-expanded="false" aria-label="Toggle navigation">

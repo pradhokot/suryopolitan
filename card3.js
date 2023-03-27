@@ -1,5 +1,5 @@
 document.write(`
-<a class="text-decoration-none d-inline h-100" href="#">
+<a class="text-decoration-none d-inline h-100" href="detail.html">
     <div class="card overflow-hidden h-100 text-dark shadow-sm">
         <img src="assets/img/lanscape.png" class="card-img-top" alt="">
         <div class="card-body text-capitalize">
