@@ -1,5 +1,5 @@
 document.write(`
-<div id="home-banner" class="carousel slide text-bg-dark carousel-fullscreen" data-bs-ride="carousel">
+<div id="home-banner" class="carousel slide carousel-fade text-bg-dark carousel-fullscreen" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="4000">
     <ol class="carousel-indicators">
         <li data-bs-target="#home-banner" data-bs-slide-to="0" class="active" aria-current="true"
             aria-label="First slide"></li>
@@ -7,12 +7,31 @@ document.write(`
         <li data-bs-target="#home-banner" data-bs-slide-to="2" aria-label="Third slide"></li>
     </ol>
     <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active" style="background-image: url(assets/img/banner/banner1.jpg);">
             <div class="carousel-caption h-100">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-lg-6">
-                            <h1 class="display-5">Lorem Ipsum Sit Amet 01.</h1>
+                            <h1 class="display-6 fw-medium">
+                                Ready To Be Software Enginer ?
+                            </h1>
+                            <p>COME AND JOIN US...</p>
+                            <a href="#" class="btn btn-primary mt-4">
+                                READ MORE <i class="bi bi-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item" style="background-image: url(assets/img/banner/banner2.jpg);">
+            <div class="carousel-caption h-100">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-lg-6">
+                            <h1 class="display-6 fw-medium">
+                                Lorem Ipsum Sit Amet 02.
+                            </h1>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </p>
@@ -24,29 +43,14 @@ document.write(`
                 </div>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" style="background-image: url(assets/img/banner/banner3.jpg);">
             <div class="carousel-caption h-100">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-lg-6">
-                            <h1 class="display-5">Lorem Ipsum Sit Amet 02.</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
-                            <a href="#" class="btn btn-primary mt-4">
-                                READ MORE <i class="bi bi-chevron-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="carousel-caption h-100">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-center">
-                        <div class="col-lg-6">
-                            <h1 class="display-5">Lorem Ipsum Sit Amet 03.</h1>
+                            <h1 class="display-6 fw-medium">
+                                Lorem Ipsum Sit Amet 03.
+                            </h1>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </p>
@@ -71,6 +75,21 @@ document.write(`
 <style>
     #home-banner .carousel-item {
         height: 75vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        poisition: relative;
+    }
+
+    #home-banner .carousel-item::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.5);
+        z-index: -1;
     }
 
     #home-banner .carousel-caption {

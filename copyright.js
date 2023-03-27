@@ -3,7 +3,7 @@ document.write(`
     <div class="container pt-5">
         <div class="row row-cols-2 row-cols-lg-auto justify-content-lg-between">
             <div class="col mb-5">
-                <h6 class="fw-semibold text-uppercase mb-3">join us</h6>
+                <h6 class="fw-medium text-uppercase mb-3">join us</h6>
                 <nav class="nav flex-column text-capitalize">
                     <a class="nav-link py-1 px-0" href="#">how to learn</a>
                     <a class="nav-link py-1 px-0" href="#">term of use</a>
@@ -12,7 +12,7 @@ document.write(`
                 </nav>
             </div>
             <div class="col mb-5">
-                <h6 class="fw-semibold text-uppercase mb-3">program</h6>
+                <h6 class="fw-medium text-uppercase mb-3">program</h6>
                 <nav class="nav flex-column text-capitalize">
                     <a class="nav-link py-1 px-0" href="#">kelas fullstack.id</a>
                     <a class="nav-link py-1 px-0" href="#">online bootcamp catamyst</a>
@@ -21,7 +21,7 @@ document.write(`
                 </nav>
             </div>
             <div class="col mb-5">
-                <h6 class="fw-semibold text-uppercase mb-3">developers</h6>
+                <h6 class="fw-medium text-uppercase mb-3">developers</h6>
                 <nav class="nav flex-column text-capitalize">
                     <a class="nav-link py-1 px-0" href="#">forum discussions</a>
                     <a class="nav-link py-1 px-0" href="#">hall of fame</a>
@@ -30,7 +30,7 @@ document.write(`
                 </nav>
             </div>
             <div class="col mb-5">
-                <h6 class="fw-semibold text-uppercase mb-3">company</h6>
+                <h6 class="fw-medium text-uppercase mb-3">company</h6>
                 <nav class="nav flex-column text-capitalize">
                     <a class="nav-link py-1 px-0" href="#">about suryopolitan</a>
                     <a class="nav-link py-1 px-0" href="#">tutorial & artikel</a>
