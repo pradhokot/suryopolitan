@@ -22,6 +22,12 @@ document.write(`
         </div>
         <div class="card-footer text-capitalize">
             <div class="row justify-content-between">
+                <div class="col-auto text-success fs-5 fw-medium">Free</div>
+                <div class="col text-end">
+                    <del class="text-black-50">Rp 380.000,-</del>
+                </div>
+            </div>
+            <div class="row justify-content-between">
                 <div class="col-auto">Beli</div>
                 <div class="col text-end">
                     <del class="text-danger me-2">Rp 380.000,-</del>
