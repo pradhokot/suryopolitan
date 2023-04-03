@@ -1,70 +1,95 @@
 document.write(`
-<footer id="copyright" class="bg-light border-top border-dark small">
-    <div class="container pt-5">
-        <div class="row row-cols-2 row-cols-lg-auto justify-content-lg-between">
-            <div class="col mb-5">
-                <h6 class="fw-medium text-uppercase mb-3">join us</h6>
-                <nav class="nav flex-column text-capitalize">
-                    <a class="nav-link py-1 px-0" href="#">how to learn</a>
-                    <a class="nav-link py-1 px-0" href="#">term of use</a>
-                    <a class="nav-link py-1 px-0" href="#">frequenly asked questions</a>
-                    <a class="nav-link py-1 px-0" href="#">privacy policy</a>
-                </nav>
+<footer id="copyright" class="bg-light border-top small">
+   <div class="container py-5">
+      <div class="row row-cols-2 row-cols-lg-auto justify-content-lg-between gy-4 gy-lg-0">
+         <div class="col">
+            <h6 class="fw-medium text-uppercase text-dark">join us</h6>
+            <ul class="list-unstyled text-capitalize">
+               <li><a href="#">how to learn</a></li>
+               <li><a href="#">terms & conditions</a></li>
+               <li><a href="#">frequentyly asked questions</a></li>
+               <li><a href="#">privacy policy</a></li>
+            </ul>
+         </div>
+         <div class="col">
+            <h6 class="fw-medium text-uppercase text-dark">program</h6>
+            <ul class="list-unstyled text-capitalize">
+               <li><a href="#">kelasFullstact.id</a></li>
+               <li><a href="#">online bootcamp catamyst</a></li>
+               <li><a href="#">become a mentor</a></li>
+               <li><a href="#">career</a></li>
+            </ul>
+         </div>
+         <div class="col">
+            <h6 class="fw-medium text-uppercase text-dark">developers</h6>
+            <ul class="list-unstyled text-capitalize">
+               <li><a href="#">forum discussions</a></li>
+               <li><a href="#">hall of fame</a></li>
+               <li><a href="#">leaderboard</a></li>
+               <li><a href="#">mentor</a></li>
+            </ul>
+         </div>
+         <div class="col">
+            <h6 class="fw-medium text-uppercase text-dark">company</h6>
+            <ul class="list-unstyled text-capitalize">
+               <li><a href="#">about company</a></li>
+               <li><a href="#">tutorial & article</a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <div class="border-top">
+      <div class="container text-center py-4">
+         <div
+            class="row d-grid gap-4 d-lg-flex flex-nowrap gap-lg-0 row-cols-lg-auto justify-content-lg-between align-items-lg-center">
+            <div class="col gx-5">
+               <div class="row fs-4 lh-1">
+                  <div class="col">
+                     <a href="#" target="_blank"><i class="bi bi-twitter"></i></a>
+                  </div>
+                  <div class="col">
+                     <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+                  </div>
+                  <div class="col">
+                     <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                  </div>
+                  <div class="col">
+                     <a href="#" target="_blank"><i class="bi bi-youtube"></i></a>
+                  </div>
+                  <div class="col">
+                     <a href="#" target="_blank"><i class="bi bi-tiktok"></i></a>
+                  </div>
+                  <div class="col">
+                     <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+                  </div>
+               </div>
             </div>
-            <div class="col mb-5">
-                <h6 class="fw-medium text-uppercase mb-3">program</h6>
-                <nav class="nav flex-column text-capitalize">
-                    <a class="nav-link py-1 px-0" href="#">kelas fullstack.id</a>
-                    <a class="nav-link py-1 px-0" href="#">online bootcamp catamyst</a>
-                    <a class="nav-link py-1 px-0" href="#">become a mentor</a>
-                    <a class="nav-link py-1 px-0" href="#">karir</a>
-                </nav>
+            <div class="col">
+               &copy; 2023 PRADHOKOT. All rights reserved. <br class="d-lg-none">
+               Made with <i class="bi bi-heart-fill text-danger"></i> by WEBDEVTEAM.
             </div>
-            <div class="col mb-5">
-                <h6 class="fw-medium text-uppercase mb-3">developers</h6>
-                <nav class="nav flex-column text-capitalize">
-                    <a class="nav-link py-1 px-0" href="#">forum discussions</a>
-                    <a class="nav-link py-1 px-0" href="#">hall of fame</a>
-                    <a class="nav-link py-1 px-0" href="#">leaderboard</a>
-                    <a class="nav-link py-1 px-0" href="#">mentor</a>
-                </nav>
-            </div>
-            <div class="col mb-5">
-                <h6 class="fw-medium text-uppercase mb-3">company</h6>
-                <nav class="nav flex-column text-capitalize">
-                    <a class="nav-link py-1 px-0" href="#">about suryopolitan</a>
-                    <a class="nav-link py-1 px-0" href="#">tutorial & artikel</a>
-                </nav>
-            </div>
-        </div>
-    </div>
-    <div class="border-top">
-        <div class="container pt-3">
-            <div class="row row-cols-1 row-cols-lg-auto align-items-lg-center justify-content-lg-between">
-                <div class="col mb-3">
-                    <nav class="nav fs-3 justify-content-center" style="margin-left: -1rem; margin-right: -1rem;">
-                        <a class="nav-link" href="#"><i class="bi bi-twitter"></i></a>
-                        <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
-                        <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
-                        <a class="nav-link" href="#"><i class="bi bi-youtube"></i></a>
-                    </nav>
-                </div>
-                <div class="col mb-3 text-center">
-                    &copy; 2023 SuryoPolitan. All rights reserved. Made with <i
-                        class="bi bi-heartbreak-fill text-danger"></i> by PRADHOKOT.
-                </div>
-            </div>
-        </div>
-    </div>
+         </div>
+      </div>
+   </div>
 </footer>
 <style>
-    #copyright a {
-        color: rgba(0, 0, 0, .6);
-    }
+   #copyright,
+   #copyright a {
+      color: rgba(0, 0, 0, .6);
+      text-decoration: none;
+   }
 
-    #copyright a:hover,
-    #copyright a.active {
-        color: rgba(0, 0, 0, 1);
-    }
+   #copyright a:hover,
+   #copyright a.active {
+      color: rgba(0, 0, 0, 1);
+   }
+
+   #copyright ul li {
+      margin-bottom: .5rem;
+   }
+
+   #copyright ul li:last-of-type {
+      margin-bottom: 0;
+   }
 </style>
 `)
