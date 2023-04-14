@@ -15,9 +15,9 @@ input::placeholder,
 }
 
 .wrapper > section {
-   margin-bottom: 5rem;
+   margin-bottom: 4.5rem;
 }
 
 .wrapper > section:first-of-type {
-   padding-top: 5rem;
+   padding-top: 4.5rem;
 }

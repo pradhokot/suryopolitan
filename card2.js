@@ -1,21 +1,26 @@
 document.write(`
 <a class="text-decoration-none d-inline h-100" href="kelas.html">
-    <div class="card overflow-hidden h-100 text-dark shadow-sm">
-        <div class="card-body">
-            <div class="row align-items-start g-3">
-                <div class="col-3">
-                    <img src="assets/img/square.png" class="img-fluid rounded" alt="">
-                </div>
-                <div class="col-9">
-                    <h5 class="card-title fw-medium text-capitalize">
-                        mahir machines learning dalam 1 jam
-                    </h5>
-                    <p class="card-text">
-                        <i class="bi bi-journal-album fs-5 me-2"></i> 2 Kelas
-                    </p>
-                </div>
+   <div class="card overflow-hidden h-100 text-dark shadow">
+      <div class="card-body">
+         <div class="row align-items-start g-3">
+            <div class="col-4">
+               <img src="assets/img/square.png" class="img-fluid rounded" alt="">
             </div>
-        </div>
-    </div>
+            <div class="col-8">
+               <h5 class="card-title fw-bold text-capitalize lh-1">
+                  mahir machines learning dalam 1 jam
+               </h5>
+               <p class="card-text small">
+                  <span class="me-3">
+                     <i class="bi bi-book-fill me-1"></i> 13 Kelas
+                  </span>
+                  <span class="me-3">
+                     <i class="bi bi-people-fill me-1"></i> 407 Siswa
+                  </span>
+               </p>
+            </div>
+         </div>
+      </div>
+   </div>
 </a>
 `)
